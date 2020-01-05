@@ -13,7 +13,7 @@ Pacote: **br.com.patrimar.quotationmap**
 Para utilizar o template, basta seguir os seguintes passos:
 
 - Clonar este repositório
-- Executar o comando **npm install** (ou **yarn**) para instalar as dependências contiadas no [package.json](package.json)
+- Executar o comando **npm install** (ou **yarn**) para instalar as dependências contidas no [package.json](package.json)
 - Iniciar o aplicativo com uma das seguintes opções
   - Executar o comando **npm run dev** (ou **yarn run dev**) para utilizar o backend de desenvolvimento oficial
   - Executar o comando **npm run mock** (ou **yarn run mock**) para utilizar o mockserver
@@ -51,4 +51,4 @@ O template está configurado com um coverage threshold de 80% (ver arquivo [Grun
 
 # GitLab CI/CD
 
-O template já vem com uma configuração padrão de CI/CD utilizando o GitLab (ver arquivo [.gitlab-ci.yml](.gitlab-ci.yml))
+O template já vem com uma configuração padrão de CI/CD utilizando o GitLab (ver arquivo [.gitlab-ci.yml](.gitlab-ci.yml)). **TODAS as linhas estão comentadas. Descomentá-las para utilizar.**
