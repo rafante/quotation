@@ -1,0 +1,20 @@
+<mvc:View id="DetailsPrice" controllerName="br.com.patrimar.quotationmap.controller.Detail" displayBlock="true" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	xmlns:l="sap.ui.layout" 
+	xmlns:f="sap.ui.layout.form" 
+	xmlns:core="sap.ui.core">
+	<App>
+		<pages>
+			<Page showHeader="false">
+				<content>
+					<ObjectHeader icon="sap-icon://simple-payment" title="{jModel>SolcotNo}" titleLevel="H1" number="{/jModel>SolcotNo}" backgroundDesign="Translucent">
+						<attributes>
+							<ObjectAttribute title="{i18n>SolcotNo}" text="{jModel>/SolcotNo}"/>
+						</attributes>
+					</ObjectHeader>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>

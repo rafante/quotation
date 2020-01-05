@@ -1,0 +1,201 @@
+[{
+	"SolcotNo": "SolcotNo 1",
+	"Type": "Type 1",
+	"Id": "Id 1",
+	"Number": "Number 1",
+	"Message": "Message 1",
+	"LogNo": "LogNo 1",
+	"LogMsgNo": "LogMsgNo 1",
+	"MessageV1": "MessageV1 1",
+	"MessageV2": "MessageV2 1",
+	"MessageV3": "MessageV3 1",
+	"MessageV4": "MessageV4 1",
+	"Parameter": "Parameter 1",
+	"Row": 9,
+	"Field": "Field 1",
+	"System": "System 1",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%201')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 2",
+	"Type": "Type 2",
+	"Id": "Id 2",
+	"Number": "Number 2",
+	"Message": "Message 2",
+	"LogNo": "LogNo 2",
+	"LogMsgNo": "LogMsgNo 2",
+	"MessageV1": "MessageV1 2",
+	"MessageV2": "MessageV2 2",
+	"MessageV3": "MessageV3 2",
+	"MessageV4": "MessageV4 2",
+	"Parameter": "Parameter 2",
+	"Row": 416,
+	"Field": "Field 2",
+	"System": "System 2",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%202')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 3",
+	"Type": "Type 3",
+	"Id": "Id 3",
+	"Number": "Number 3",
+	"Message": "Message 3",
+	"LogNo": "LogNo 3",
+	"LogMsgNo": "LogMsgNo 3",
+	"MessageV1": "MessageV1 3",
+	"MessageV2": "MessageV2 3",
+	"MessageV3": "MessageV3 3",
+	"MessageV4": "MessageV4 3",
+	"Parameter": "Parameter 3",
+	"Row": 6671,
+	"Field": "Field 3",
+	"System": "System 3",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%203')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 4",
+	"Type": "Type 4",
+	"Id": "Id 4",
+	"Number": "Number 4",
+	"Message": "Message 4",
+	"LogNo": "LogNo 4",
+	"LogMsgNo": "LogMsgNo 4",
+	"MessageV1": "MessageV1 4",
+	"MessageV2": "MessageV2 4",
+	"MessageV3": "MessageV3 4",
+	"MessageV4": "MessageV4 4",
+	"Parameter": "Parameter 4",
+	"Row": 2613,
+	"Field": "Field 4",
+	"System": "System 4",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%204')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 5",
+	"Type": "Type 5",
+	"Id": "Id 5",
+	"Number": "Number 5",
+	"Message": "Message 5",
+	"LogNo": "LogNo 5",
+	"LogMsgNo": "LogMsgNo 5",
+	"MessageV1": "MessageV1 5",
+	"MessageV2": "MessageV2 5",
+	"MessageV3": "MessageV3 5",
+	"MessageV4": "MessageV4 5",
+	"Parameter": "Parameter 5",
+	"Row": 7960,
+	"Field": "Field 5",
+	"System": "System 5",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%205')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 6",
+	"Type": "Type 6",
+	"Id": "Id 6",
+	"Number": "Number 6",
+	"Message": "Message 6",
+	"LogNo": "LogNo 6",
+	"LogMsgNo": "LogMsgNo 6",
+	"MessageV1": "MessageV1 6",
+	"MessageV2": "MessageV2 6",
+	"MessageV3": "MessageV3 6",
+	"MessageV4": "MessageV4 6",
+	"Parameter": "Parameter 6",
+	"Row": 2584,
+	"Field": "Field 6",
+	"System": "System 6",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%206')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 7",
+	"Type": "Type 7",
+	"Id": "Id 7",
+	"Number": "Number 7",
+	"Message": "Message 7",
+	"LogNo": "LogNo 7",
+	"LogMsgNo": "LogMsgNo 7",
+	"MessageV1": "MessageV1 7",
+	"MessageV2": "MessageV2 7",
+	"MessageV3": "MessageV3 7",
+	"MessageV4": "MessageV4 7",
+	"Parameter": "Parameter 7",
+	"Row": 5101,
+	"Field": "Field 7",
+	"System": "System 7",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%207')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 8",
+	"Type": "Type 8",
+	"Id": "Id 8",
+	"Number": "Number 8",
+	"Message": "Message 8",
+	"LogNo": "LogNo 8",
+	"LogMsgNo": "LogMsgNo 8",
+	"MessageV1": "MessageV1 8",
+	"MessageV2": "MessageV2 8",
+	"MessageV3": "MessageV3 8",
+	"MessageV4": "MessageV4 8",
+	"Parameter": "Parameter 8",
+	"Row": 7638,
+	"Field": "Field 8",
+	"System": "System 8",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%208')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 9",
+	"Type": "Type 9",
+	"Id": "Id 9",
+	"Number": "Number 9",
+	"Message": "Message 9",
+	"LogNo": "LogNo 9",
+	"LogMsgNo": "LogMsgNo 9",
+	"MessageV1": "MessageV1 9",
+	"MessageV2": "MessageV2 9",
+	"MessageV3": "MessageV3 9",
+	"MessageV4": "MessageV4 9",
+	"Parameter": "Parameter 9",
+	"Row": 100,
+	"Field": "Field 9",
+	"System": "System 9",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%209')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}, {
+	"SolcotNo": "SolcotNo 10",
+	"Type": "Type 10",
+	"Id": "Id 10",
+	"Number": "Number 10",
+	"Message": "Message 10",
+	"LogNo": "LogNo 10",
+	"LogMsgNo": "LogMsgNo 10",
+	"MessageV1": "MessageV1 10",
+	"MessageV2": "MessageV2 10",
+	"MessageV3": "MessageV3 10",
+	"MessageV4": "MessageV4 10",
+	"Parameter": "Parameter 10",
+	"Row": 8688,
+	"Field": "Field 10",
+	"System": "System 10",
+	"__metadata": {
+		"uri": "QuotationMapLogSet('SolcotNo%2010')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog"
+	}
+}]

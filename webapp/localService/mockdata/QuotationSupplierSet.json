@@ -1,0 +1,81 @@
+[{
+	"SolcotNo": "SolcotNo 1",
+	"Supplier": "Supplier 1",
+	"SupplierName": "SupplierName 1",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%201',Supplier='Supplier%201')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 2",
+	"Supplier": "Supplier 2",
+	"SupplierName": "SupplierName 2",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%202',Supplier='Supplier%202')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 3",
+	"Supplier": "Supplier 3",
+	"SupplierName": "SupplierName 3",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%203',Supplier='Supplier%203')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 4",
+	"Supplier": "Supplier 4",
+	"SupplierName": "SupplierName 4",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%204',Supplier='Supplier%204')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 5",
+	"Supplier": "Supplier 5",
+	"SupplierName": "SupplierName 5",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%205',Supplier='Supplier%205')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 6",
+	"Supplier": "Supplier 6",
+	"SupplierName": "SupplierName 6",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%206',Supplier='Supplier%206')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 7",
+	"Supplier": "Supplier 7",
+	"SupplierName": "SupplierName 7",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%207',Supplier='Supplier%207')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 8",
+	"Supplier": "Supplier 8",
+	"SupplierName": "SupplierName 8",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%208',Supplier='Supplier%208')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 9",
+	"Supplier": "Supplier 9",
+	"SupplierName": "SupplierName 9",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%209',Supplier='Supplier%209')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}, {
+	"SolcotNo": "SolcotNo 10",
+	"Supplier": "Supplier 10",
+	"SupplierName": "SupplierName 10",
+	"__metadata": {
+		"uri": "QuotationSupplierSet(SolcotNo='SolcotNo%2010',Supplier='Supplier%2010')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier"
+	}
+}]

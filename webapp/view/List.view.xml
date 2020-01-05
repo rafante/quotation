@@ -1,0 +1,74 @@
+<mvc:View id="List" controllerName="br.com.patrimar.quotationmap.controller.List" displayBlock="false" 
+	xmlns:mvc="sap.ui.core.mvc" 
+	xmlns="sap.m" 
+	xmlns:layout="sap.ui.layout" 
+	xmlns:semantic="sap.f.semantic" 
+	xmlns:fb="sap.ui.comp.filterbar" 
+	xmlns:f="sap.f" 
+	xmlns:core="sap.ui.core">
+
+	<f:DynamicPage id="dynamicPageId" headerExpanded="true" showFooter="true">
+		<!-- DynamicPage Title -->
+		<f:title>
+			<f:DynamicPageTitle>
+				<f:heading>
+					<Title text="{i18n>appTitle}" wrapping="true"/>
+				</f:heading>
+
+			</f:DynamicPageTitle>
+		</f:title>
+		<f:header>
+			<f:DynamicPageHeader pinnable="true">
+
+				<fb:FilterBar reset="onReset" search="onPressFilter" showRestoreButton="false" showClearButton="false" useToolbar="false" showGoOnFB="false" filterBarExpanded="true" showFilterConfiguration="false">
+					<fb:filterGroupItems>
+						<fb:FilterGroupItem groupName="__$INTERNAL$" name="SolcotNoFilter" label="{i18n>SolcotNo}" labelTooltip="{i18n>SolcotNo}" mandatory="false" visibleInFilterBar="true">
+							<fb:control>
+								<Input id="inputSolcotNoFilter" type="Text" placeholder="{i18n>SolcotNo}..." showSuggestion="false" showValueHelp="false" value="{/filters/SolcotNo}">
+								</Input>
+							</fb:control>
+						</fb:FilterGroupItem>
+
+						<fb:FilterGroupItem groupName="__$INTERNAL$" name="ActionsFilter" label="{i18n>Actions}" partOfCurrentVariant="true" visibleInFilterBar="true">
+							<fb:control>
+								<Button icon="sap-icon://filter" text="{i18n>FilterButton}" press="onPressFilter" type="Emphasized"></Button>
+							</fb:control>
+						</fb:FilterGroupItem>
+					</fb:filterGroupItems>
+
+				</fb:FilterBar>
+
+			</f:DynamicPageHeader>
+		</f:header>
+		<f:content>
+
+			<Table id="idPriceTable" alternateRowColors="true" inset="false" items="{path:'jModel>/QuotationMapSet'}" width="auto">
+
+				<columns>
+					<Column width="8rem" minScreenWidth="Phone" demandPopin="true" popinDisplay="WithoutHeader">
+						<Text text="{i18n>SolcotNo}"/>
+					</Column>
+				</columns>
+
+				<items>
+					<ColumnListItem type="Navigation" press=".onListItemPressed" vAlign="Middle">
+						<cells class="sapUiContentPadding">
+							<Title titleStyle="H4" text="{jModel>SolcotNo}"/>
+						</cells>
+					</ColumnListItem>
+				</items>
+
+			</Table>
+
+		</f:content>
+
+		<f:footer>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Button icon="sap-icon://add" type="Emphasized" text="{i18n>Add}" press="onAdd"/>
+			</OverflowToolbar>
+		</f:footer>
+
+	</f:DynamicPage>
+
+</mvc:View>

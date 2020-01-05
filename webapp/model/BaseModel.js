@@ -1,0 +1,73 @@
+sap.ui.define(["sap/ui/base/Object"], function(Object) {
+  "use strict";
+
+  return Object.extend("br.com.patrimar.quotationmap.model.BaseModel", {
+    /**
+     * Construtor
+     */
+    constructor: function() {},
+
+    /**
+     * Genérico - Efetua a leitura dos dados no backend de acordo com o sPath
+     * @param {*} sPath
+     */
+    readByPath: function(sPath, propName) {
+      return new Promise(
+        function(res, rej) {
+          var oModel = this.getODataModel();
+
+          oModel.read(sPath, {
+            success: function(data, response) {
+              res(data, response);
+            }.bind(this),
+            error: function(oError) {
+              rej(oError);
+            }.bind(this)
+          });
+        }.bind(this)
+      );
+    },
+
+    /**
+     * Recupera a lista do backend
+     */
+    readList: function() {
+      return this.readByPath("/" + this.ENTITY_SET_NAME);
+    },
+
+    /**
+     * Recupera a lista do backend
+     */
+    readByKey: function(key) {
+      // Ex.: /QuotationMapSet('0000000001')
+      var sPath = this.getPathFromKey(this.ENTITY_SET_NAME, key);
+      return this.readByPath(sPath);
+    },
+
+    /**
+     * Recupera o caminho com base no entity set e na chave
+     * Ex.: /QuotationMapSet('0000000001')
+     * @param {*} entitySetName
+     * @param {*} key
+     */
+    getPathFromKey: function(entitySetName, key) {
+      // TODO: Escrever testes unitários
+      return `/${entitySetName}('${key}')`;
+    },
+
+    /**
+     * Define o ODataModel/JSONModel para a instância
+     * @param {*} oModel
+     */
+    setODataModel: function(oModel) {
+      this.oModel = oModel;
+    },
+
+    /**
+     * Retorna o ODataModel/JSONModel da instância
+     */
+    getODataModel: function() {
+      return this.oModel;
+    }
+  });
+});

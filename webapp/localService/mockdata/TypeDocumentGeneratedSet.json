@@ -1,0 +1,71 @@
+[{
+	"Value": "Value 1",
+	"Text": "Text 1",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%201')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 2",
+	"Text": "Text 2",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%202')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 3",
+	"Text": "Text 3",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%203')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 4",
+	"Text": "Text 4",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%204')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 5",
+	"Text": "Text 5",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%205')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 6",
+	"Text": "Text 6",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%206')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 7",
+	"Text": "Text 7",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%207')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 8",
+	"Text": "Text 8",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%208')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 9",
+	"Text": "Text 9",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%209')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}, {
+	"Value": "Value 10",
+	"Text": "Text 10",
+	"__metadata": {
+		"uri": "TypeDocumentGeneratedSet('Value%2010')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated"
+	}
+}]

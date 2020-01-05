@@ -1,0 +1,131 @@
+[{
+	"SolcotNo": "SolcotNo 1",
+	"PreqNo": "PreqNo 1",
+	"PreqItem": "PreqItem 1",
+	"Tipo": "Tipo 1",
+	"Material": "Material 1",
+	"Contrato": "Contrato 1",
+	"Updated": true,
+	"ExpirationDate": "/Date(1067291125000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%201',PreqNo='PreqNo%201',PreqItem='PreqItem%201')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 2",
+	"PreqNo": "PreqNo 2",
+	"PreqItem": "PreqItem 2",
+	"Tipo": "Tipo 2",
+	"Material": "Material 2",
+	"Contrato": "Contrato 2",
+	"Updated": false,
+	"ExpirationDate": "/Date(1082328325000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%202',PreqNo='PreqNo%202',PreqItem='PreqItem%202')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 3",
+	"PreqNo": "PreqNo 3",
+	"PreqItem": "PreqItem 3",
+	"Tipo": "Tipo 3",
+	"Material": "Material 3",
+	"Contrato": "Contrato 3",
+	"Updated": true,
+	"ExpirationDate": "/Date(1567637125000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%203',PreqNo='PreqNo%203',PreqItem='PreqItem%203')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 4",
+	"PreqNo": "PreqNo 4",
+	"PreqItem": "PreqItem 4",
+	"Tipo": "Tipo 4",
+	"Material": "Material 4",
+	"Contrato": "Contrato 4",
+	"Updated": false,
+	"ExpirationDate": "/Date(1500072325000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%204',PreqNo='PreqNo%204',PreqItem='PreqItem%204')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 5",
+	"PreqNo": "PreqNo 5",
+	"PreqItem": "PreqItem 5",
+	"Tipo": "Tipo 5",
+	"Material": "Material 5",
+	"Contrato": "Contrato 5",
+	"Updated": false,
+	"ExpirationDate": "/Date(1139694325000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%205',PreqNo='PreqNo%205',PreqItem='PreqItem%205')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 6",
+	"PreqNo": "PreqNo 6",
+	"PreqItem": "PreqItem 6",
+	"Tipo": "Tipo 6",
+	"Material": "Material 6",
+	"Contrato": "Contrato 6",
+	"Updated": false,
+	"ExpirationDate": "/Date(1391809525000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%206',PreqNo='PreqNo%206',PreqItem='PreqItem%206')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 7",
+	"PreqNo": "PreqNo 7",
+	"PreqItem": "PreqItem 7",
+	"Tipo": "Tipo 7",
+	"Material": "Material 7",
+	"Contrato": "Contrato 7",
+	"Updated": false,
+	"ExpirationDate": "/Date(1158446725000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%207',PreqNo='PreqNo%207',PreqItem='PreqItem%207')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 8",
+	"PreqNo": "PreqNo 8",
+	"PreqItem": "PreqItem 8",
+	"Tipo": "Tipo 8",
+	"Material": "Material 8",
+	"Contrato": "Contrato 8",
+	"Updated": false,
+	"ExpirationDate": "/Date(1090881925000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%208',PreqNo='PreqNo%208',PreqItem='PreqItem%208')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 9",
+	"PreqNo": "PreqNo 9",
+	"PreqItem": "PreqItem 9",
+	"Tipo": "Tipo 9",
+	"Material": "Material 9",
+	"Contrato": "Contrato 9",
+	"Updated": false,
+	"ExpirationDate": "/Date(1235947525000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%209',PreqNo='PreqNo%209',PreqItem='PreqItem%209')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}, {
+	"SolcotNo": "SolcotNo 10",
+	"PreqNo": "PreqNo 10",
+	"PreqItem": "PreqItem 10",
+	"Tipo": "Tipo 10",
+	"Material": "Material 10",
+	"Contrato": "Contrato 10",
+	"Updated": true,
+	"ExpirationDate": "/Date(1420062325000)/",
+	"__metadata": {
+		"uri": "QuotationMapContractItemsSet(SolcotNo='SolcotNo%2010',PreqNo='PreqNo%2010',PreqItem='PreqItem%2010')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems"
+	}
+}]

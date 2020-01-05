@@ -1,0 +1,231 @@
+[{
+	"SolcotNo": "SolcotNo 1",
+	"Material": "Material 1",
+	"Plant": "Plant 1",
+	"MaterialText": "MaterialText 1",
+	"Quantity": 9.85,
+	"Unit": "Unit 1",
+	"NoActions": true,
+	"EvaluationPrice": 416.31,
+	"Status": "Status 1",
+	"StatusDescription": "StatusDescription 1",
+	"Notes": "Notes 1",
+	"Marcas": "Marcas 1",
+	"TipoMaterial": "TipoMaterial 1",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%201',Material='Material%201',Plant='Plant%201')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%201',Material='Material%201',Plant='Plant%201')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 2",
+	"Material": "Material 2",
+	"Plant": "Plant 2",
+	"MaterialText": "MaterialText 2",
+	"Quantity": 6671.92,
+	"Unit": "Unit 2",
+	"NoActions": true,
+	"EvaluationPrice": 2613.6,
+	"Status": "Status 2",
+	"StatusDescription": "StatusDescription 2",
+	"Notes": "Notes 2",
+	"Marcas": "Marcas 2",
+	"TipoMaterial": "TipoMaterial 2",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%202',Material='Material%202',Plant='Plant%202')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%202',Material='Material%202',Plant='Plant%202')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 3",
+	"Material": "Material 3",
+	"Plant": "Plant 3",
+	"MaterialText": "MaterialText 3",
+	"Quantity": 7960.43,
+	"Unit": "Unit 3",
+	"NoActions": false,
+	"EvaluationPrice": 2584.86,
+	"Status": "Status 3",
+	"StatusDescription": "StatusDescription 3",
+	"Notes": "Notes 3",
+	"Marcas": "Marcas 3",
+	"TipoMaterial": "TipoMaterial 3",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%203',Material='Material%203',Plant='Plant%203')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%203',Material='Material%203',Plant='Plant%203')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 4",
+	"Material": "Material 4",
+	"Plant": "Plant 4",
+	"MaterialText": "MaterialText 4",
+	"Quantity": 5101.49,
+	"Unit": "Unit 4",
+	"NoActions": true,
+	"EvaluationPrice": 7638.68,
+	"Status": "Status 4",
+	"StatusDescription": "StatusDescription 4",
+	"Notes": "Notes 4",
+	"Marcas": "Marcas 4",
+	"TipoMaterial": "TipoMaterial 4",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%204',Material='Material%204',Plant='Plant%204')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%204',Material='Material%204',Plant='Plant%204')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 5",
+	"Material": "Material 5",
+	"Plant": "Plant 5",
+	"MaterialText": "MaterialText 5",
+	"Quantity": 100.85,
+	"Unit": "Unit 5",
+	"NoActions": false,
+	"EvaluationPrice": 8688.55,
+	"Status": "Status 5",
+	"StatusDescription": "StatusDescription 5",
+	"Notes": "Notes 5",
+	"Marcas": "Marcas 5",
+	"TipoMaterial": "TipoMaterial 5",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%205',Material='Material%205',Plant='Plant%205')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%205',Material='Material%205',Plant='Plant%205')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 6",
+	"Material": "Material 6",
+	"Plant": "Plant 6",
+	"MaterialText": "MaterialText 6",
+	"Quantity": 9523.1,
+	"Unit": "Unit 6",
+	"NoActions": true,
+	"EvaluationPrice": 8078.05,
+	"Status": "Status 6",
+	"StatusDescription": "StatusDescription 6",
+	"Notes": "Notes 6",
+	"Marcas": "Marcas 6",
+	"TipoMaterial": "TipoMaterial 6",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%206',Material='Material%206',Plant='Plant%206')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%206',Material='Material%206',Plant='Plant%206')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 7",
+	"Material": "Material 7",
+	"Plant": "Plant 7",
+	"MaterialText": "MaterialText 7",
+	"Quantity": 3324.62,
+	"Unit": "Unit 7",
+	"NoActions": false,
+	"EvaluationPrice": 591.67,
+	"Status": "Status 7",
+	"StatusDescription": "StatusDescription 7",
+	"Notes": "Notes 7",
+	"Marcas": "Marcas 7",
+	"TipoMaterial": "TipoMaterial 7",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%207',Material='Material%207',Plant='Plant%207')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%207',Material='Material%207',Plant='Plant%207')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 8",
+	"Material": "Material 8",
+	"Plant": "Plant 8",
+	"MaterialText": "MaterialText 8",
+	"Quantity": 4853.71,
+	"Unit": "Unit 8",
+	"NoActions": false,
+	"EvaluationPrice": 4053.58,
+	"Status": "Status 8",
+	"StatusDescription": "StatusDescription 8",
+	"Notes": "Notes 8",
+	"Marcas": "Marcas 8",
+	"TipoMaterial": "TipoMaterial 8",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%208',Material='Material%208',Plant='Plant%208')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%208',Material='Material%208',Plant='Plant%208')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 9",
+	"Material": "Material 9",
+	"Plant": "Plant 9",
+	"MaterialText": "MaterialText 9",
+	"Quantity": 7495.46,
+	"Unit": "Unit 9",
+	"NoActions": true,
+	"EvaluationPrice": 7826.71,
+	"Status": "Status 9",
+	"StatusDescription": "StatusDescription 9",
+	"Notes": "Notes 9",
+	"Marcas": "Marcas 9",
+	"TipoMaterial": "TipoMaterial 9",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%209',Material='Material%209',Plant='Plant%209')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%209',Material='Material%209',Plant='Plant%209')/Offers"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 10",
+	"Material": "Material 10",
+	"Plant": "Plant 10",
+	"MaterialText": "MaterialText 10",
+	"Quantity": 3812,
+	"Unit": "Unit 10",
+	"NoActions": false,
+	"EvaluationPrice": 6152.62,
+	"Status": "Status 10",
+	"StatusDescription": "StatusDescription 10",
+	"Notes": "Notes 10",
+	"Marcas": "Marcas 10",
+	"TipoMaterial": "TipoMaterial 10",
+	"__metadata": {
+		"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%2010',Material='Material%2010',Plant='Plant%2010')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem"
+	},
+	"Offers": {
+		"__deferred": {
+			"uri": "QuotationMapItemSet(SolcotNo='SolcotNo%2010',Material='Material%2010',Plant='Plant%2010')/Offers"
+		}
+	}
+}]

@@ -1,0 +1,17 @@
+ID: quotationmap
+version: 1.0.0
+_schema-version: 2.0.0
+
+parameters:
+  hcp-deployer-version: 1.2.0
+
+modules:
+  - name: quotationmap
+    type: html5
+    path: .
+    parameters:
+      display-name: quotationmap
+      version: ${timestamp}
+    build-parameters:
+      builder: grunt
+      build-result: dist

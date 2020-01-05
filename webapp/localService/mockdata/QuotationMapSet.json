@@ -1,0 +1,391 @@
+[{
+	"SolcotNo": "SolcotNo 1",
+	"CreatedAt": "/Date(967848299000)/",
+	"Status": "Status 1",
+	"StatusDescription": "StatusDescription 1",
+	"PurchaseOrg": "PurchaseOrg 1",
+	"ValidTo": "/Date(1114296299000)/",
+	"DocumentType": "DocumentType 1",
+	"UpdatedAt": "/Date(1264196699000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 1",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%201')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%201')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%201')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%201')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%201')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%201')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 2",
+	"CreatedAt": "/Date(1509227099000)/",
+	"Status": "Status 2",
+	"StatusDescription": "StatusDescription 2",
+	"PurchaseOrg": "PurchaseOrg 2",
+	"ValidTo": "/Date(1149201899000)/",
+	"DocumentType": "DocumentType 2",
+	"UpdatedAt": "/Date(1224711899000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 2",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%202')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%202')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%202')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%202')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%202')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%202')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 3",
+	"CreatedAt": "/Date(1190155499000)/",
+	"Status": "Status 3",
+	"StatusDescription": "StatusDescription 3",
+	"PurchaseOrg": "PurchaseOrg 3",
+	"ValidTo": "/Date(1157755499000)/",
+	"DocumentType": "DocumentType 3",
+	"UpdatedAt": "/Date(1139262299000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 3",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%203')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%203')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%203')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%203')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%203')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%203')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 4",
+	"CreatedAt": "/Date(1405377899000)/",
+	"Status": "Status 4",
+	"StatusDescription": "StatusDescription 4",
+	"PurchaseOrg": "PurchaseOrg 4",
+	"ValidTo": "/Date(1301438699000)/",
+	"DocumentType": "DocumentType 4",
+	"UpdatedAt": "/Date(1516139099000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 4",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%204')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%204')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%204')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%204')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%204')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%204')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 5",
+	"CreatedAt": "/Date(1274222699000)/",
+	"Status": "Status 5",
+	"StatusDescription": "StatusDescription 5",
+	"PurchaseOrg": "PurchaseOrg 5",
+	"ValidTo": "/Date(990312299000)/",
+	"DocumentType": "DocumentType 5",
+	"UpdatedAt": "/Date(1532385899000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 5",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%205')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%205')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%205')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%205')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%205')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%205')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 6",
+	"CreatedAt": "/Date(1210200299000)/",
+	"Status": "Status 6",
+	"StatusDescription": "StatusDescription 6",
+	"PurchaseOrg": "PurchaseOrg 6",
+	"ValidTo": "/Date(1539989099000)/",
+	"DocumentType": "DocumentType 6",
+	"UpdatedAt": "/Date(1555541099000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 6",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%206')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%206')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%206')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%206')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%206')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%206')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 7",
+	"CreatedAt": "/Date(1039470299000)/",
+	"Status": "Status 7",
+	"StatusDescription": "StatusDescription 7",
+	"PurchaseOrg": "PurchaseOrg 7",
+	"ValidTo": "/Date(1239403499000)/",
+	"DocumentType": "DocumentType 7",
+	"UpdatedAt": "/Date(1268433899000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 7",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%207')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%207')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%207')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%207')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%207')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%207')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 8",
+	"CreatedAt": "/Date(1490654699000)/",
+	"Status": "Status 8",
+	"StatusDescription": "StatusDescription 8",
+	"PurchaseOrg": "PurchaseOrg 8",
+	"ValidTo": "/Date(1101937499000)/",
+	"DocumentType": "DocumentType 8",
+	"UpdatedAt": "/Date(1184366699000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 8",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%208')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%208')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%208')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%208')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%208')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%208')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 9",
+	"CreatedAt": "/Date(978385499000)/",
+	"Status": "Status 9",
+	"StatusDescription": "StatusDescription 9",
+	"PurchaseOrg": "PurchaseOrg 9",
+	"ValidTo": "/Date(1011735899000)/",
+	"DocumentType": "DocumentType 9",
+	"UpdatedAt": "/Date(1538433899000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 9",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%209')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%209')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%209')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%209')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%209')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%209')/ContractItems"
+		}
+	}
+}, {
+	"SolcotNo": "SolcotNo 10",
+	"CreatedAt": "/Date(1070574299000)/",
+	"Status": "Status 10",
+	"StatusDescription": "StatusDescription 10",
+	"PurchaseOrg": "PurchaseOrg 10",
+	"ValidTo": "/Date(1136151899000)/",
+	"DocumentType": "DocumentType 10",
+	"UpdatedAt": "/Date(1090795499000)/",
+	"DocumentTypeDescription": "DocumentTypeDescription 10",
+	"__metadata": {
+		"uri": "QuotationMapSet('SolcotNo%2010')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+	},
+	"Items": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%2010')/Items"
+		}
+	},
+	"Suppliers": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%2010')/Suppliers"
+		}
+	},
+	"GeneratedDocs": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%2010')/GeneratedDocs"
+		}
+	},
+	"Log": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%2010')/Log"
+		}
+	},
+	"ContractItems": {
+		"__deferred": {
+			"uri": "QuotationMapSet('SolcotNo%2010')/ContractItems"
+		}
+	}
+}]

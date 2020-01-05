@@ -1,0 +1,101 @@
+[{
+	"SolcotNo": "SolcotNo 1",
+	"Ebeln": "Ebeln 1",
+	"Plant": "Plant 1",
+	"SupplierName": "SupplierName 1",
+	"Supplier": "Supplier 1",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%201',Ebeln='Ebeln%201',Plant='Plant%201',Supplier='Supplier%201')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 2",
+	"Ebeln": "Ebeln 2",
+	"Plant": "Plant 2",
+	"SupplierName": "SupplierName 2",
+	"Supplier": "Supplier 2",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%202',Ebeln='Ebeln%202',Plant='Plant%202',Supplier='Supplier%202')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 3",
+	"Ebeln": "Ebeln 3",
+	"Plant": "Plant 3",
+	"SupplierName": "SupplierName 3",
+	"Supplier": "Supplier 3",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%203',Ebeln='Ebeln%203',Plant='Plant%203',Supplier='Supplier%203')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 4",
+	"Ebeln": "Ebeln 4",
+	"Plant": "Plant 4",
+	"SupplierName": "SupplierName 4",
+	"Supplier": "Supplier 4",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%204',Ebeln='Ebeln%204',Plant='Plant%204',Supplier='Supplier%204')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 5",
+	"Ebeln": "Ebeln 5",
+	"Plant": "Plant 5",
+	"SupplierName": "SupplierName 5",
+	"Supplier": "Supplier 5",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%205',Ebeln='Ebeln%205',Plant='Plant%205',Supplier='Supplier%205')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 6",
+	"Ebeln": "Ebeln 6",
+	"Plant": "Plant 6",
+	"SupplierName": "SupplierName 6",
+	"Supplier": "Supplier 6",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%206',Ebeln='Ebeln%206',Plant='Plant%206',Supplier='Supplier%206')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 7",
+	"Ebeln": "Ebeln 7",
+	"Plant": "Plant 7",
+	"SupplierName": "SupplierName 7",
+	"Supplier": "Supplier 7",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%207',Ebeln='Ebeln%207',Plant='Plant%207',Supplier='Supplier%207')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 8",
+	"Ebeln": "Ebeln 8",
+	"Plant": "Plant 8",
+	"SupplierName": "SupplierName 8",
+	"Supplier": "Supplier 8",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%208',Ebeln='Ebeln%208',Plant='Plant%208',Supplier='Supplier%208')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 9",
+	"Ebeln": "Ebeln 9",
+	"Plant": "Plant 9",
+	"SupplierName": "SupplierName 9",
+	"Supplier": "Supplier 9",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%209',Ebeln='Ebeln%209',Plant='Plant%209',Supplier='Supplier%209')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}, {
+	"SolcotNo": "SolcotNo 10",
+	"Ebeln": "Ebeln 10",
+	"Plant": "Plant 10",
+	"SupplierName": "SupplierName 10",
+	"Supplier": "Supplier 10",
+	"__metadata": {
+		"uri": "QuotationMapGeneratedDocsSet(SolcotNo='SolcotNo%2010',Ebeln='Ebeln%2010',Plant='Plant%2010',Supplier='Supplier%2010')",
+		"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs"
+	}
+}]

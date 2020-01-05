@@ -1,0 +1,40 @@
+image: registry.gitlab.com/seidor-brasil/digital/seidor-mta-builder
+stages:
+  - test-and-build
+  - deploy-dev
+  - deploy-prd
+
+test-and-build:
+  stage: test-and-build
+  artifacts:
+    expire_in: 1 week
+    paths:
+      - app.mtar
+  before_script:
+    - sed -ie "s/\${timestamp}/`date +%d.%m.%Y-%H%M%S`/g" mta.yaml
+  script:
+    - npm config set @sap:registry https://npm.sap.com
+    - yarn add jest
+    - yarn run test
+    - mta-builder --mtar app.mtar --build-target=NEO build
+  only:
+    - development
+    - master
+
+deploy-dev:
+  stage: deploy-dev
+  dependencies:
+    - test-and-build
+  script:
+    - neo deploy-mta --user ${SCP_DEV_USER} --host ${SCP_DEV_HOST} --source app.mtar --account ${SCP_DEV_ACCOUNT} --password ${SCP_DEV_PWD} --synchronous
+  only:
+    - development
+
+deploy-prd:
+  stage: deploy-prd
+  dependencies:
+    - test-and-build
+  script:
+    - neo deploy-mta --user ${SCP_PRD_USER} --host ${SCP_PRD_HOST} --source app.mtar --account ${SCP_PRD_ACCOUNT} --password ${SCP_PRD_PWD} --synchronous
+  only:
+    - master
