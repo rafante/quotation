@@ -1,11 +1,14 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/quotationmap/model/QuotationMapModel"],
-  function(BaseController, QuotationMapModel) {
+  ["./BaseController", "br/com/patrimar/quotationmap/model/QuotationMapModel",
+    'quotationmap/formatter/formatter'],
+  function (BaseController, QuotationMapModel, formatter) {
     "use strict";
 
     return BaseController.extend(
       "br.com.patrimar.quotationmap.controller.List",
       {
+        formatter: formatter,
+
         /**
          * EVENTOS
          */
@@ -13,7 +16,7 @@ sap.ui.define(
         /**
          * Inicialização do controller
          */
-        onInit: function() {
+        onInit: function () {
           // Recupera o ODataModel principal
           var oModel = this.getOwnerComponent().getModel();
 
@@ -22,7 +25,7 @@ sap.ui.define(
 
           // Aguarda o metadata do OData ser carregado
           oModel.metadataLoaded().then(
-            function() {
+            function () {
               this.loadQuotationMapList();
             }.bind(this)
           );
@@ -32,7 +35,7 @@ sap.ui.define(
          * Evento acionado ao clicar em um item da lista
          * @param {*} oItem
          */
-        onListItemPressed: function(oItem) {
+        onListItemPressed: function (oItem) {
           var sPath = oItem.getSource().getBindingContextPath();
           var key = this.getModel("jModel").getProperty(sPath).SolcotNo;
 
@@ -49,12 +52,12 @@ sap.ui.define(
         /**
          * Carrega a lista de Mapas de Cotação
          */
-        loadQuotationMapList: function() {
+        loadQuotationMapList: function () {
           // Recupera o modelo (QuotationMapModel.js) e faz a leitura dos dados no backend
           this.getModelInstance()
             .readList()
             .then(
-              function(data) {
+              function (data) {
                 this.getModel("jModel").setProperty(
                   "/QuotationMapSet",
                   data.results

@@ -1,15 +1,18 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/quotationmap/model/QuotationMapModel"],
-  function(BaseController, QuotationMapModel) {
+  ["./BaseController", "br/com/patrimar/quotationmap/model/QuotationMapModel",
+    'quotationmap/formatter/formatter'],
+  function (BaseController, QuotationMapModel, formatter) {
     "use strict";
 
     return BaseController.extend(
       "br.com.patrimar.quotationmap.controller.Detail",
       {
+        formatter: formatter,
+
         /**
          * Inicialização do controller
          */
-        onInit: function() {
+        onInit: function () {
           // Recupera o ODataModel principal
           var oModel = this.getOwnerComponent().getModel();
 

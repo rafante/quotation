@@ -8,11 +8,18 @@
 		<pages>
 			<Page showHeader="false">
 				<content>
-					<ObjectHeader icon="sap-icon://simple-payment" title="{jModel>SolcotNo}" titleLevel="H1" number="{/jModel>SolcotNo}" backgroundDesign="Translucent">
+					<ObjectHeader icon="sap-icon://map" title="{jModel>SolcotNo}" titleLevel="H1" number="{/jModel>SolcotNo}" backgroundDesign="Translucent">
+						<statuses>
+							<ObjectStatus icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
+									path: 'jModel>/Status',
+									formatter: '.formatter.getStatusState'
+								}" text="{jModel>/StatusDescription}"/>
+						</statuses>
 						<attributes>
 							<ObjectAttribute title="{i18n>SolcotNo}" text="{jModel>/SolcotNo}"/>
 						</attributes>
 					</ObjectHeader>
+
 				</content>
 			</Page>
 		</pages>

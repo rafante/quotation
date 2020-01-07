@@ -45,15 +45,48 @@
 			<Table id="idPriceTable" alternateRowColors="true" inset="false" items="{path:'jModel>/QuotationMapSet'}" width="auto">
 
 				<columns>
-					<Column width="8rem" minScreenWidth="Phone" demandPopin="true" popinDisplay="WithoutHeader">
+					<Column width="2rem">
+						<Text text=""/>
+					</Column>
+					<Column>
 						<Text text="{i18n>SolcotNo}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>Status}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>CreatedAt}"/>
+					</Column>
+					<Column>
+						<Text text="{i18n>ValidTo}"/>
 					</Column>
 				</columns>
 
 				<items>
 					<ColumnListItem type="Navigation" press=".onListItemPressed" vAlign="Middle">
-						<cells class="sapUiContentPadding">
-							<Title titleStyle="H4" text="{jModel>SolcotNo}"/>
+						<cells>
+							<ObjectStatus icon="{ path: 'jModel>Status', formatter: '.formatter.getStatusIcon' }" state="{
+								path: 'jModel>Status',
+								formatter: '.formatter.getStatusState'
+							}"/>
+						</cells>
+						<cells>
+							<Title text="{jModel>SolcotNo}"/>
+						</cells>
+						<cells>
+							<Title text="{jModel>StatusDescription}"/>
+						</cells>
+						<cells>
+							<Text text="{
+								path: 'jModel>CreatedAt',
+								formatter: '.formatter.getFormattedDate'
+							}"/>
+						</cells>
+						<cells>
+							<Text text="{
+								path: 'jModel>ValidTo',
+								formatter: '.formatter.getFormattedDate'
+							}"/>
 						</cells>
 					</ColumnListItem>
 				</items>
@@ -61,13 +94,6 @@
 			</Table>
 
 		</f:content>
-
-		<f:footer>
-			<OverflowToolbar>
-				<ToolbarSpacer/>
-				<Button icon="sap-icon://add" type="Emphasized" text="{i18n>Add}" press="onAdd"/>
-			</OverflowToolbar>
-		</f:footer>
 
 	</f:DynamicPage>
 
