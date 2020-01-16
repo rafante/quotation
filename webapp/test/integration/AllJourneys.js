@@ -3,7 +3,7 @@ sap.ui.define(["sap/ui/test/Opa5", "./arrangements/Startup", "./NavigationJourne
 
   Opa5.extendConfig({
     arrangements: new Startup(),
-    viewNamespace: "br.com.patrimar.quotationmap.view.",
+    viewNamespace: "br.com.patrimar.criacotacao.view.",
     autoWait: true
   });
 });

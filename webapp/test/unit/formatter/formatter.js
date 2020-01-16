@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define(
-  ["br/com/patrimar/quotationmap/formatter/formatter",
+  ["br/com/patrimar/criacotacao/formatter/formatter",
     'sap/ui/core/ValueState'],
   function (formatter, ValueState) {
     "use strict";

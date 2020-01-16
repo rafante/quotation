@@ -1,7 +1,7 @@
 {
   "_version": "1.12.0",
   "sap.app": {
-    "id": "br.com.patrimar.quotationmap",
+    "id": "br.com.patrimar.criacotacao",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -15,7 +15,7 @@
     },
     "dataSources": {
       "mainService": {
-        "uri": "/S4_HANA/sap/opu/odata/sap/ZSD_ODATA_PRICE_COCKPIT_SRV/",
+        "uri": "/S4_HANA/sap/opu/odata/SAP/ZPORTAL_COTACAO_SRV/",
         "type": "OData",
         "settings": {
           "localUri": "localService/ZSD_ODATA_PRICE_COCKPIT_SRV/metadata.xml"
@@ -42,7 +42,7 @@
   "sap.ui5": {
     "flexEnabled": false,
     "rootView": {
-      "viewName": "br.com.patrimar.quotationmap.view.App",
+      "viewName": "br.com.patrimar.criacotacao.view.App",
       "type": "XML",
       "async": true,
       "id": "App"
@@ -63,7 +63,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "br.com.patrimar.quotationmap.i18n.i18n"
+          "bundleName": "br.com.patrimar.criacotacao.i18n.i18n"
         }
       },
       "": {
@@ -90,7 +90,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "br.com.patrimar.quotationmap.view",
+        "viewPath": "br.com.patrimar.criacotacao.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false
@@ -99,12 +99,16 @@
         {
           "name": "List",
           "pattern": "",
-          "target": ["List"]
+          "target": [
+            "List"
+          ]
         },
         {
           "name": "Detail",
           "pattern": "Detail/{key}",
-          "target": ["Detail"]
+          "target": [
+            "Detail"
+          ]
         }
       ],
       "targets": {

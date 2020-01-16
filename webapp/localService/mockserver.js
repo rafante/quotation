@@ -9,7 +9,7 @@ sap.ui.define(
     "use strict";
 
     var oMockServer,
-      _sAppPath = "quotationmap/",
+      _sAppPath = "criacotacao/",
       _sJsonFilesPath = _sAppPath + "localService/mockdata";
 
     var oMockServerInterface = {

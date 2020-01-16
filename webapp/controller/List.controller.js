@@ -1,11 +1,11 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/quotationmap/model/QuotationMapModel",
-    'quotationmap/formatter/formatter'],
-  function (BaseController, QuotationMapModel, formatter) {
+  ["./BaseController", "br/com/patrimar/criacotacao/model/CotacaoModel",
+    'criacotacao/formatter/formatter'],
+  function (BaseController, CriaCotacaoModel, formatter) {
     "use strict";
 
     return BaseController.extend(
-      "br.com.patrimar.quotationmap.controller.List",
+      "br.com.patrimar.criacotacao.controller.List",
       {
         formatter: formatter,
 
@@ -21,12 +21,12 @@ sap.ui.define(
           var oModel = this.getOwnerComponent().getModel();
 
           // Prepara o controller (Routing e Model)
-          this.prepare(QuotationMapModel.getInstance(oModel));
+          this.prepare(CriaCotacaoModel.getInstance(oModel));
 
           // Aguarda o metadata do OData ser carregado
           oModel.metadataLoaded().then(
             function () {
-              this.loadQuotationMapList();
+              this.loadCriaCotacaoList();
             }.bind(this)
           );
         },
@@ -50,16 +50,16 @@ sap.ui.define(
          */
 
         /**
-         * Carrega a lista de Mapas de Cotação
+         * Carrega a lista de Criação de Cotação
          */
-        loadQuotationMapList: function () {
-          // Recupera o modelo (QuotationMapModel.js) e faz a leitura dos dados no backend
+        loadCriaCotacaoList: function () {
+          // Recupera o modelo (CriaCotacaoModel.js) e faz a leitura dos dados no backend
           this.getModelInstance()
             .readList()
             .then(
               function (data) {
                 this.getModel("jModel").setProperty(
-                  "/QuotationMapSet",
+                  "/CotacaoSet",
                   data.results
                 );
               }.bind(this)

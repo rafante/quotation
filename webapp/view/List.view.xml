@@ -1,4 +1,4 @@
-<mvc:View id="List" controllerName="br.com.patrimar.quotationmap.controller.List" displayBlock="false" 
+<mvc:View id="List" controllerName="br.com.patrimar.criacotacao.controller.List" displayBlock="false" 
 	xmlns:mvc="sap.ui.core.mvc" 
 	xmlns="sap.m" 
 	xmlns:layout="sap.ui.layout" 
@@ -42,7 +42,7 @@
 		</f:header>
 		<f:content>
 
-			<Table id="idPriceTable" alternateRowColors="true" inset="false" items="{path:'jModel>/QuotationMapSet'}" width="auto">
+			<Table id="idPriceTable" alternateRowColors="true" inset="false" items="{path:'jModel>/CotacaoSet'}" width="auto">
 
 				<columns>
 					<Column width="2rem">

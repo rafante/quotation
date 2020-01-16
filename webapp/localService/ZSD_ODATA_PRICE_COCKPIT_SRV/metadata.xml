@@ -3,7 +3,7 @@
   xmlns:sap="http://www.sap.com/Protocols/SAPData" Version="1.0">
   <edmx:DataServices m:DataServiceVersion="2.0">
     <Schema xmlns="http://schemas.microsoft.com/ado/2008/09/edm" Namespace="ZPORTAL_QUOTATION_MAP_SRV" xml:lang="pt" sap:schema-version="1">
-      <EntityType Name="QuotationMap" sap:content-version="1">
+      <EntityType Name="CriaCotacao" sap:content-version="1">
         <Key>
           <PropertyRef Name="SolcotNo"/>
         </Key>
@@ -16,13 +16,13 @@
         <Property Name="DocumentType" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Tipo de documento gerado" sap:creatable="false"/>
         <Property Name="UpdatedAt" Type="Edm.DateTime" Precision="0" sap:display-format="Date" sap:unicode="false" sap:label="Última atualização em" sap:creatable="false" sap:updatable="false"/>
         <Property Name="DocumentTypeDescription" Type="Edm.String" sap:unicode="false" sap:label="Documento gerado" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
-        <NavigationProperty Name="Items" Relationship="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_QuotationMapItem" FromRole="FromRole_QuotationMap_QuotationMapItem" ToRole="ToRole_QuotationMap_QuotationMapItem"/>
-        <NavigationProperty Name="Suppliers" Relationship="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_Suppliers" FromRole="FromRole_QuotationMap_Suppliers" ToRole="ToRole_QuotationMap_Suppliers"/>
-        <NavigationProperty Name="GeneratedDocs" Relationship="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_GeneratedDocs" FromRole="FromRole_QuotationMap_GeneratedDocs" ToRole="ToRole_QuotationMap_GeneratedDocs"/>
-        <NavigationProperty Name="Log" Relationship="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_Log" FromRole="FromRole_QuotationMap_Log" ToRole="ToRole_QuotationMap_Log"/>
-        <NavigationProperty Name="ContractItems" Relationship="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_ContractItems" FromRole="FromRole_QuotationMap_ContractItems" ToRole="ToRole_QuotationMap_ContractItems"/>
+        <NavigationProperty Name="Items" Relationship="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_CriaCotacaoItem" FromRole="FromRole_CriaCotacao_CriaCotacaoItem" ToRole="ToRole_CriaCotacao_CriaCotacaoItem"/>
+        <NavigationProperty Name="Suppliers" Relationship="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_Suppliers" FromRole="FromRole_CriaCotacao_Suppliers" ToRole="ToRole_CriaCotacao_Suppliers"/>
+        <NavigationProperty Name="GeneratedDocs" Relationship="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_GeneratedDocs" FromRole="FromRole_CriaCotacao_GeneratedDocs" ToRole="ToRole_CriaCotacao_GeneratedDocs"/>
+        <NavigationProperty Name="Log" Relationship="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_Log" FromRole="FromRole_CriaCotacao_Log" ToRole="ToRole_CriaCotacao_Log"/>
+        <NavigationProperty Name="ContractItems" Relationship="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_ContractItems" FromRole="FromRole_CriaCotacao_ContractItems" ToRole="ToRole_CriaCotacao_ContractItems"/>
       </EntityType>
-      <EntityType Name="QuotationMapItem" sap:content-version="1">
+      <EntityType Name="CriaCotacaoItem" sap:content-version="1">
         <Key>
           <PropertyRef Name="SolcotNo"/>
           <PropertyRef Name="Material"/>
@@ -41,7 +41,7 @@
         <Property Name="Notes" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="Notas" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
         <Property Name="Marcas" Type="Edm.String" Nullable="false" MaxLength="255" sap:unicode="false" sap:label="Marcas" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
         <Property Name="TipoMaterial" Type="Edm.String" MaxLength="1" sap:unicode="false" sap:label="Tipo de Material" sap:creatable="false"/>
-        <NavigationProperty Name="Offers" Relationship="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem_Offers" FromRole="FromRole_QuotationMapItem_Offers" ToRole="ToRole_QuotationMapItem_Offers"/>
+        <NavigationProperty Name="Offers" Relationship="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem_Offers" FromRole="FromRole_CriaCotacaoItem_Offers" ToRole="ToRole_CriaCotacaoItem_Offers"/>
       </EntityType>
       <EntityType Name="QuotationSupplier" sap:content-version="1">
         <Key>
@@ -52,7 +52,7 @@
         <Property Name="Supplier" Type="Edm.String" Nullable="false" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
         <Property Name="SupplierName" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
       </EntityType>
-      <EntityType Name="QuotationMapItemOffer" sap:content-version="1">
+      <EntityType Name="CriaCotacaoItemOffer" sap:content-version="1">
         <Key>
           <PropertyRef Name="SolcotNo"/>
           <PropertyRef Name="Material"/>
@@ -83,7 +83,7 @@
         <Property Name="Value" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Valor" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
         <Property Name="Text" Type="Edm.String" Nullable="false" sap:unicode="false" sap:label="Texto" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
       </EntityType>
-      <EntityType Name="QuotationMapGeneratedDocs" sap:content-version="1">
+      <EntityType Name="CriaCotacaoGeneratedDocs" sap:content-version="1">
         <Key>
           <PropertyRef Name="SolcotNo"/>
           <PropertyRef Name="Ebeln"/>
@@ -96,7 +96,7 @@
         <Property Name="SupplierName" Type="Edm.String" Nullable="false" MaxLength="35" sap:unicode="false" sap:label="Nome" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
         <Property Name="Supplier" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Fornecedor" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
       </EntityType>
-      <EntityType Name="QuotationMapLog" sap:content-version="1">
+      <EntityType Name="CriaCotacaoLog" sap:content-version="1">
         <Key>
           <PropertyRef Name="SolcotNo"/>
         </Key>
@@ -116,7 +116,7 @@
         <Property Name="Field" Type="Edm.String" Nullable="false" MaxLength="30" sap:unicode="false" sap:label="Nome do campo" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
         <Property Name="System" Type="Edm.String" Nullable="false" MaxLength="10" sap:unicode="false" sap:label="Sistema lógico" sap:creatable="false" sap:updatable="false" sap:sortable="false" sap:filterable="false"/>
       </EntityType>
-      <EntityType Name="QuotationMapContractItems" sap:content-version="1">
+      <EntityType Name="CriaCotacaoContractItems" sap:content-version="1">
         <Key>
           <PropertyRef Name="SolcotNo"/>
           <PropertyRef Name="PreqNo"/>
@@ -131,119 +131,119 @@
         <Property Name="Updated" Type="Edm.Boolean" sap:unicode="false" sap:label="Atualizado?" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
         <Property Name="ExpirationDate" Type="Edm.DateTime" Precision="0" sap:unicode="false" sap:label="Data de Validade" sap:creatable="false" sap:updatable="false" sap:sortable="false"/>
       </EntityType>
-      <Association Name="QuotationMapItem_Offers" sap:content-version="1">
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem" Multiplicity="1" Role="FromRole_QuotationMapItem_Offers"/>
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItemOffer" Multiplicity="*" Role="ToRole_QuotationMapItem_Offers"/>
+      <Association Name="CriaCotacaoItem_Offers" sap:content-version="1">
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem" Multiplicity="1" Role="FromRole_CriaCotacaoItem_Offers"/>
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItemOffer" Multiplicity="*" Role="ToRole_CriaCotacaoItem_Offers"/>
         <ReferentialConstraint>
-          <Principal Role="FromRole_QuotationMapItem_Offers">
+          <Principal Role="FromRole_CriaCotacaoItem_Offers">
             <PropertyRef Name="SolcotNo"/>
             <PropertyRef Name="Material"/>
             <PropertyRef Name="Plant"/>
           </Principal>
-          <Dependent Role="ToRole_QuotationMapItem_Offers">
+          <Dependent Role="ToRole_CriaCotacaoItem_Offers">
             <PropertyRef Name="SolcotNo"/>
             <PropertyRef Name="Material"/>
             <PropertyRef Name="Plant"/>
           </Dependent>
         </ReferentialConstraint>
       </Association>
-      <Association Name="QuotationMap_Suppliers" sap:content-version="1">
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" Multiplicity="1" Role="FromRole_QuotationMap_Suppliers"/>
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier" Multiplicity="*" Role="ToRole_QuotationMap_Suppliers"/>
+      <Association Name="CriaCotacao_Suppliers" sap:content-version="1">
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" Multiplicity="1" Role="FromRole_CriaCotacao_Suppliers"/>
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier" Multiplicity="*" Role="ToRole_CriaCotacao_Suppliers"/>
         <ReferentialConstraint>
-          <Principal Role="FromRole_QuotationMap_Suppliers">
+          <Principal Role="FromRole_CriaCotacao_Suppliers">
             <PropertyRef Name="SolcotNo"/>
           </Principal>
-          <Dependent Role="ToRole_QuotationMap_Suppliers">
+          <Dependent Role="ToRole_CriaCotacao_Suppliers">
             <PropertyRef Name="SolcotNo"/>
           </Dependent>
         </ReferentialConstraint>
       </Association>
-      <Association Name="QuotationMap_GeneratedDocs" sap:content-version="1">
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" Multiplicity="1" Role="FromRole_QuotationMap_GeneratedDocs"/>
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs" Multiplicity="*" Role="ToRole_QuotationMap_GeneratedDocs"/>
+      <Association Name="CriaCotacao_GeneratedDocs" sap:content-version="1">
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" Multiplicity="1" Role="FromRole_CriaCotacao_GeneratedDocs"/>
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoGeneratedDocs" Multiplicity="*" Role="ToRole_CriaCotacao_GeneratedDocs"/>
         <ReferentialConstraint>
-          <Principal Role="FromRole_QuotationMap_GeneratedDocs">
+          <Principal Role="FromRole_CriaCotacao_GeneratedDocs">
             <PropertyRef Name="SolcotNo"/>
           </Principal>
-          <Dependent Role="ToRole_QuotationMap_GeneratedDocs">
+          <Dependent Role="ToRole_CriaCotacao_GeneratedDocs">
             <PropertyRef Name="SolcotNo"/>
           </Dependent>
         </ReferentialConstraint>
       </Association>
-      <Association Name="QuotationMap_Log" sap:content-version="1">
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" Multiplicity="1" Role="FromRole_QuotationMap_Log"/>
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog" Multiplicity="*" Role="ToRole_QuotationMap_Log"/>
+      <Association Name="CriaCotacao_Log" sap:content-version="1">
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" Multiplicity="1" Role="FromRole_CriaCotacao_Log"/>
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoLog" Multiplicity="*" Role="ToRole_CriaCotacao_Log"/>
         <ReferentialConstraint>
-          <Principal Role="FromRole_QuotationMap_Log">
+          <Principal Role="FromRole_CriaCotacao_Log">
             <PropertyRef Name="SolcotNo"/>
           </Principal>
-          <Dependent Role="ToRole_QuotationMap_Log">
+          <Dependent Role="ToRole_CriaCotacao_Log">
             <PropertyRef Name="SolcotNo"/>
           </Dependent>
         </ReferentialConstraint>
       </Association>
-      <Association Name="QuotationMap_ContractItems" sap:content-version="1">
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" Multiplicity="1" Role="FromRole_QuotationMap_ContractItems"/>
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems" Multiplicity="*" Role="ToRole_QuotationMap_ContractItems"/>
+      <Association Name="CriaCotacao_ContractItems" sap:content-version="1">
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" Multiplicity="1" Role="FromRole_CriaCotacao_ContractItems"/>
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoContractItems" Multiplicity="*" Role="ToRole_CriaCotacao_ContractItems"/>
       </Association>
-      <Association Name="QuotationMap_QuotationMapItem" sap:content-version="1">
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" Multiplicity="1" Role="FromRole_QuotationMap_QuotationMapItem"/>
-        <End Type="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem" Multiplicity="*" Role="ToRole_QuotationMap_QuotationMapItem"/>
+      <Association Name="CriaCotacao_CriaCotacaoItem" sap:content-version="1">
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" Multiplicity="1" Role="FromRole_CriaCotacao_CriaCotacaoItem"/>
+        <End Type="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem" Multiplicity="*" Role="ToRole_CriaCotacao_CriaCotacaoItem"/>
         <ReferentialConstraint>
-          <Principal Role="FromRole_QuotationMap_QuotationMapItem">
+          <Principal Role="FromRole_CriaCotacao_CriaCotacaoItem">
             <PropertyRef Name="SolcotNo"/>
           </Principal>
-          <Dependent Role="ToRole_QuotationMap_QuotationMapItem">
+          <Dependent Role="ToRole_CriaCotacao_CriaCotacaoItem">
             <PropertyRef Name="SolcotNo"/>
           </Dependent>
         </ReferentialConstraint>
       </Association>
       <EntityContainer Name="ZPORTAL_QUOTATION_MAP_SRV_Entities" m:IsDefaultEntityContainer="true" sap:supported-formats="atom json xlsx">
-        <EntitySet Name="QuotationMapSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-        <EntitySet Name="QuotationMapItemSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+        <EntitySet Name="CriaCotacaoSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" sap:creatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+        <EntitySet Name="CriaCotacaoItemSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
         <EntitySet Name="QuotationSupplierSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.QuotationSupplier" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-        <EntitySet Name="QuotationMapItemOfferSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItemOffer" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+        <EntitySet Name="CriaCotacaoItemOfferSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItemOffer" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
         <EntitySet Name="TypeDocumentGeneratedSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.TypeDocumentGenerated" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
-        <EntitySet Name="QuotationMapGeneratedDocsSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapGeneratedDocs" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-        <EntitySet Name="QuotationMapLogSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapLog" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
-        <EntitySet Name="QuotationMapContractItemsSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapContractItems" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
-        <AssociationSet Name="QuotationMap_LogSet" Association="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_Log" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-          <End EntitySet="QuotationMapSet" Role="FromRole_QuotationMap_Log"/>
-          <End EntitySet="QuotationMapLogSet" Role="ToRole_QuotationMap_Log"/>
+        <EntitySet Name="CriaCotacaoGeneratedDocsSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoGeneratedDocs" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+        <EntitySet Name="CriaCotacaoLogSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoLog" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:content-version="1"/>
+        <EntitySet Name="CriaCotacaoContractItemsSet" EntityType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoContractItems" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:pageable="false" sap:addressable="false" sap:content-version="1"/>
+        <AssociationSet Name="CriaCotacao_LogSet" Association="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_Log" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+          <End EntitySet="CriaCotacaoSet" Role="FromRole_CriaCotacao_Log"/>
+          <End EntitySet="CriaCotacaoLogSet" Role="ToRole_CriaCotacao_Log"/>
         </AssociationSet>
-        <AssociationSet Name="QuotationMapItem_OffersSet" Association="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem_Offers" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-          <End EntitySet="QuotationMapItemSet" Role="FromRole_QuotationMapItem_Offers"/>
-          <End EntitySet="QuotationMapItemOfferSet" Role="ToRole_QuotationMapItem_Offers"/>
+        <AssociationSet Name="CriaCotacaoItem_OffersSet" Association="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem_Offers" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+          <End EntitySet="CriaCotacaoItemSet" Role="FromRole_CriaCotacaoItem_Offers"/>
+          <End EntitySet="CriaCotacaoItemOfferSet" Role="ToRole_CriaCotacaoItem_Offers"/>
         </AssociationSet>
-        <AssociationSet Name="QuotationMap_SuppliersSet" Association="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_Suppliers" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-          <End EntitySet="QuotationMapSet" Role="FromRole_QuotationMap_Suppliers"/>
-          <End EntitySet="QuotationSupplierSet" Role="ToRole_QuotationMap_Suppliers"/>
+        <AssociationSet Name="CriaCotacao_SuppliersSet" Association="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_Suppliers" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+          <End EntitySet="CriaCotacaoSet" Role="FromRole_CriaCotacao_Suppliers"/>
+          <End EntitySet="QuotationSupplierSet" Role="ToRole_CriaCotacao_Suppliers"/>
         </AssociationSet>
-        <AssociationSet Name="QuotationMap_QuotationMapItemSet" Association="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_QuotationMapItem" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-          <End EntitySet="QuotationMapSet" Role="FromRole_QuotationMap_QuotationMapItem"/>
-          <End EntitySet="QuotationMapItemSet" Role="ToRole_QuotationMap_QuotationMapItem"/>
+        <AssociationSet Name="CriaCotacao_CriaCotacaoItemSet" Association="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_CriaCotacaoItem" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+          <End EntitySet="CriaCotacaoSet" Role="FromRole_CriaCotacao_CriaCotacaoItem"/>
+          <End EntitySet="CriaCotacaoItemSet" Role="ToRole_CriaCotacao_CriaCotacaoItem"/>
         </AssociationSet>
-        <AssociationSet Name="QuotationMap_ContractItems_AssocSet" Association="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_ContractItems" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-          <End EntitySet="QuotationMapSet" Role="FromRole_QuotationMap_ContractItems"/>
-          <End EntitySet="QuotationMapContractItemsSet" Role="ToRole_QuotationMap_ContractItems"/>
+        <AssociationSet Name="CriaCotacao_ContractItems_AssocSet" Association="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_ContractItems" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+          <End EntitySet="CriaCotacaoSet" Role="FromRole_CriaCotacao_ContractItems"/>
+          <End EntitySet="CriaCotacaoContractItemsSet" Role="ToRole_CriaCotacao_ContractItems"/>
         </AssociationSet>
-        <AssociationSet Name="QuotationMap_GeneratedDocsSet" Association="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap_GeneratedDocs" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
-          <End EntitySet="QuotationMapSet" Role="FromRole_QuotationMap_GeneratedDocs"/>
-          <End EntitySet="QuotationMapGeneratedDocsSet" Role="ToRole_QuotationMap_GeneratedDocs"/>
+        <AssociationSet Name="CriaCotacao_GeneratedDocsSet" Association="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao_GeneratedDocs" sap:creatable="false" sap:updatable="false" sap:deletable="false" sap:content-version="1">
+          <End EntitySet="CriaCotacaoSet" Role="FromRole_CriaCotacao_GeneratedDocs"/>
+          <End EntitySet="CriaCotacaoGeneratedDocsSet" Role="ToRole_CriaCotacao_GeneratedDocs"/>
         </AssociationSet>
-        <FunctionImport Name="ReproveQuotationMapItem" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem" EntitySet="QuotationMapItemSet" m:HttpMethod="POST" sap:label="Reprova item do mapa de cotação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem">
+        <FunctionImport Name="ReproveCriaCotacaoItem" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem" EntitySet="CriaCotacaoItemSet" m:HttpMethod="POST" sap:label="Reprova item de cotação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem">
           <Parameter Name="Plant" Type="Edm.String" Mode="In" MaxLength="4"/>
           <Parameter Name="Material" Type="Edm.String" Mode="In" MaxLength="40"/>
           <Parameter Name="SolcotNo" Type="Edm.String" Mode="In" MaxLength="12"/>
         </FunctionImport>
-        <FunctionImport Name="SendToApproval" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" EntitySet="QuotationMapSet" m:HttpMethod="POST" sap:label="Envia mapa de cotação para aprovação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap">
+        <FunctionImport Name="SendToApproval" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" EntitySet="CriaCotacaoSet" m:HttpMethod="POST" sap:label="Envia cotação para aprovação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao">
           <Parameter Name="SolcotNo" Type="Edm.String" Mode="In"/>
         </FunctionImport>
-        <FunctionImport Name="ApproveQuotationMap" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap" EntitySet="QuotationMapSet" m:HttpMethod="POST" sap:label="Aprova mapa de cotação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.QuotationMap">
+        <FunctionImport Name="ApproveCriaCotacao" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao" EntitySet="CriaCotacaoSet" m:HttpMethod="POST" sap:label="Aprova cotação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao">
           <Parameter Name="SolcotNo" Type="Edm.String" Mode="In"/>
         </FunctionImport>
-        <FunctionImport Name="ActiveQuotationMapItem" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem" EntitySet="QuotationMapItemSet" m:HttpMethod="POST" sap:label="Reativa item do mapa de cotação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.QuotationMapItem">
+        <FunctionImport Name="ActiveCriaCotacaoItem" ReturnType="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem" EntitySet="CriaCotacaoItemSet" m:HttpMethod="POST" sap:label="Reativa item de cotação" sap:action-for="ZPORTAL_QUOTATION_MAP_SRV.CriaCotacaoItem">
           <Parameter Name="Plant" Type="Edm.String" Mode="In" MaxLength="4"/>
           <Parameter Name="Material" Type="Edm.String" Mode="In" MaxLength="40"/>
           <Parameter Name="SolcotNo" Type="Edm.String" Mode="In" MaxLength="12"/>

@@ -1,26 +1,26 @@
-sap.ui.define(["sap/ui/base/Object"], function(Object) {
+sap.ui.define(["sap/ui/base/Object"], function (Object) {
   "use strict";
 
-  return Object.extend("br.com.patrimar.quotationmap.model.BaseModel", {
+  return Object.extend("br.com.patrimar.criacotacao.model.BaseModel", {
     /**
      * Construtor
      */
-    constructor: function() {},
+    constructor: function () { },
 
     /**
      * Genérico - Efetua a leitura dos dados no backend de acordo com o sPath
      * @param {*} sPath
      */
-    readByPath: function(sPath, propName) {
+    readByPath: function (sPath, propName) {
       return new Promise(
-        function(res, rej) {
+        function (res, rej) {
           var oModel = this.getODataModel();
 
           oModel.read(sPath, {
-            success: function(data, response) {
+            success: function (data, response) {
               res(data, response);
             }.bind(this),
-            error: function(oError) {
+            error: function (oError) {
               rej(oError);
             }.bind(this)
           });
@@ -31,26 +31,26 @@ sap.ui.define(["sap/ui/base/Object"], function(Object) {
     /**
      * Recupera a lista do backend
      */
-    readList: function() {
+    readList: function () {
       return this.readByPath("/" + this.ENTITY_SET_NAME);
     },
 
     /**
      * Recupera a lista do backend
      */
-    readByKey: function(key) {
-      // Ex.: /QuotationMapSet('0000000001')
+    readByKey: function (key) {
+      // Ex.: /CriaCotacaoSet('0000000001')
       var sPath = this.getPathFromKey(this.ENTITY_SET_NAME, key);
       return this.readByPath(sPath);
     },
 
     /**
      * Recupera o caminho com base no entity set e na chave
-     * Ex.: /QuotationMapSet('0000000001')
+     * Ex.: /CriaCotacaoSet('0000000001')
      * @param {*} entitySetName
      * @param {*} key
      */
-    getPathFromKey: function(entitySetName, key) {
+    getPathFromKey: function (entitySetName, key) {
       // TODO: Escrever testes unitários
       return `/${entitySetName}('${key}')`;
     },
@@ -59,14 +59,14 @@ sap.ui.define(["sap/ui/base/Object"], function(Object) {
      * Define o ODataModel/JSONModel para a instância
      * @param {*} oModel
      */
-    setODataModel: function(oModel) {
+    setODataModel: function (oModel) {
       this.oModel = oModel;
     },
 
     /**
      * Retorna o ODataModel/JSONModel da instância
      */
-    getODataModel: function() {
+    getODataModel: function () {
       return this.oModel;
     }
   });

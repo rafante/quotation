@@ -1,5 +1,5 @@
 {
-  "name": "quotatiomap",
+  "name": "criacotacao",
   "version": "0.0.1",
   "description": "",
   "private": true,
@@ -26,7 +26,8 @@
   "scripts": {
     "build": "ui5 build --include-task=generateManifestBundle generateCachebusterInfo",
     "mock": "grunt --gruntfile server-mock.js",
-    "dev": "cd .. && yarn run dev",
+    "dev": "grunt --gruntfile server-dev.js",
+    "bash": "/bin/bash teste.bash",
     "test": "grunt unit_and_integration_tests"
   }
 }

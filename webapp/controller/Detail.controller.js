@@ -1,11 +1,11 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/quotationmap/model/QuotationMapModel",
-    'quotationmap/formatter/formatter'],
-  function (BaseController, QuotationMapModel, formatter) {
+  ["./BaseController", "br/com/patrimar/criacotacao/model/CotacaoModel",
+    'criacotacao/formatter/formatter'],
+  function (BaseController, CotacaoModel, formatter) {
     "use strict";
 
     return BaseController.extend(
-      "br.com.patrimar.quotationmap.controller.Detail",
+      "br.com.patrimar.criacotacao.controller.Detail",
       {
         formatter: formatter,
 
@@ -17,7 +17,7 @@ sap.ui.define(
           var oModel = this.getOwnerComponent().getModel();
 
           // Prepara o controller (Model, Routing)
-          this.prepare(QuotationMapModel.getInstance(oModel), "Detail");
+          this.prepare(CotacaoModel.getInstance(oModel), "Detail");
         }
       }
     );

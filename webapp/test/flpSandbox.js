@@ -1,6 +1,6 @@
 sap.ui.define(
   ["sap/base/util/ObjectPath", "sap/ushell/services/Container"],
-  function(ObjectPath) {
+  function (ObjectPath) {
     "use strict";
 
     // define ushell config
@@ -40,8 +40,8 @@ sap.ui.define(
                     {
                       tileType: "sap.ushell.ui.tile.StaticTile",
                       properties: {
-                        title: "Mapa de Cotação",
-                        targetURL: "#quotationmap-display"
+                        title: "Criar de Cotação",
+                        targetURL: "#criacotacao-display"
                       }
                     }
                   ]
@@ -54,19 +54,19 @@ sap.ui.define(
           adapter: {
             config: {
               inbounds: {
-                "quotationmap-display": {
-                  semanticObject: "quotationmap",
+                "criacotacao-display": {
+                  semanticObject: "criacotacao",
                   action: "display",
 
-                  title: "Mapa de Cotação",
+                  title: "Criação de Cotação",
                   signature: {
                     parameters: {}
                   },
                   resolutionResult: {
                     applicationType: "SAPUI5",
                     additionalInformation:
-                      "SAPUI5.Component=br.com.patrimar.quotationmap",
-                    url: sap.ui.require.toUrl("quotationmap")
+                      "SAPUI5.Component=br.com.patrimar.criacotacao",
+                    url: sap.ui.require.toUrl("criacotacao")
                   }
                 }
               }
@@ -82,7 +82,7 @@ sap.ui.define(
     });
 
     var oFlpSandbox = {
-      init: function() {
+      init: function () {
         /**
          * Initializes the FLP sandbox
          * @returns {Promise} a promise that is resolved when the sandbox bootstrap has finshed
@@ -91,7 +91,7 @@ sap.ui.define(
         // sandbox is a singleton, so we can start it only once
         if (!this._oBootstrapFinished) {
           this._oBootstrapFinished = sap.ushell.bootstrap("local");
-          this._oBootstrapFinished.then(function() {
+          this._oBootstrapFinished.then(function () {
             sap.ushell.Container.createRenderer().placeAt("content");
           });
         }

@@ -1,9 +1,9 @@
 [
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000252')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000252')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000252')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000252')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000252",
 		"CreatedAt": "\/Date(1548115200000)\/",
@@ -16,35 +16,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000252')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000252')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000252')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000252')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000252')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000252')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000252')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000252')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000252')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000252')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000253')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000253')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000253')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000253')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000253",
 		"CreatedAt": "\/Date(1548115200000)\/",
@@ -57,35 +57,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000253')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000253')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000253')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000253')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000253')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000253')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000253')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000253')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000253')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000253')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000270')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000270')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000270')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000270')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000270",
 		"CreatedAt": "\/Date(1549497600000)\/",
@@ -98,35 +98,35 @@
 		"DocumentTypeDescription": "Contrato",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000270')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000270')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000270')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000270')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000270')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000270')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000270')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000270')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000270')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000270')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000255')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000255')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000255')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000255')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000255",
 		"CreatedAt": "\/Date(1548201600000)\/",
@@ -139,35 +139,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000255')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000255')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000255')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000255')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000255')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000255')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000255')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000255')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000255')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000255')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000257')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000257')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000257')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000257')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000257",
 		"CreatedAt": "\/Date(1548201600000)\/",
@@ -180,35 +180,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000257')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000257')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000257')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000257')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000257')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000257')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000257')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000257')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000257')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000257')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000267')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000267')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000267')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000267')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000267",
 		"CreatedAt": "\/Date(1549324800000)\/",
@@ -221,35 +221,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000267')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000267')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000267')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000267')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000267')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000267')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000267')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000267')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000267')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000267')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000259')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000259')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000259')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000259')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000259",
 		"CreatedAt": "\/Date(1548201600000)\/",
@@ -262,35 +262,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000259')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000259')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000259')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000259')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000259')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000259')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000259')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000259')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000259')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000259')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000260')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000260')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000260')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000260')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000260",
 		"CreatedAt": "\/Date(1548288000000)\/",
@@ -303,35 +303,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000260')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000260')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000260')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000260')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000260')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000260')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000260')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000260')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000260')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000260')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000261')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000261')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000261')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000261')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000261",
 		"CreatedAt": "\/Date(1548288000000)\/",
@@ -344,35 +344,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000261')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000261')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000261')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000261')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000261')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000261')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000261')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000261')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000261')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000261')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000263')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000263')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000263')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000263')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000263",
 		"CreatedAt": "\/Date(1548633600000)\/",
@@ -385,35 +385,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000263')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000263')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000263')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000263')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000263')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000263')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000263')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000263')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000263')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000263')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000256')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000256')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000256')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000256')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000256",
 		"CreatedAt": "\/Date(1548201600000)\/",
@@ -426,35 +426,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000256')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000256')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000256')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000256')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000256')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000256')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000256')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000256')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000256')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000256')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000262')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000262')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000262')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000262')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000262",
 		"CreatedAt": "\/Date(1548633600000)\/",
@@ -467,35 +467,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000262')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000262')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000262')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000262')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000262')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000262')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000262')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000262')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000262')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000262')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000265')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000265')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000265')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000265')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000265",
 		"CreatedAt": "\/Date(1548806400000)\/",
@@ -508,35 +508,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000265')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000265')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000265')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000265')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000265')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000265')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000265')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000265')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000265')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000265')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000266')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000266')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000266')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000266')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000266",
 		"CreatedAt": "\/Date(1548806400000)\/",
@@ -549,35 +549,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000266')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000266')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000266')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000266')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000266')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000266')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000266')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000266')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000266')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000266')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000258')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000258')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000258')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000258')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000258",
 		"CreatedAt": "\/Date(1548201600000)\/",
@@ -590,35 +590,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000258')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000258')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000258')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000258')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000258')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000258')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000258')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000258')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000258')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000258')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000268')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000268')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000268')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000268')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000268",
 		"CreatedAt": "\/Date(1549324800000)\/",
@@ -631,35 +631,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000268')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000268')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000268')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000268')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000268')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000268')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000268')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000268')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000268')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000268')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000269')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000269')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000269')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000269')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000269",
 		"CreatedAt": "\/Date(1549497600000)\/",
@@ -672,35 +672,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000269')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000269')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000269')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000269')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000269')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000269')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000269')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000269')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000269')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000269')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000254')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000254')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000254')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000254')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000254",
 		"CreatedAt": "\/Date(1548115200000)\/",
@@ -713,35 +713,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000254')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000254')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000254')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000254')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000254')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000254')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000254')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000254')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000254')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000254')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000271')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000271')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000271')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000271')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000271",
 		"CreatedAt": "\/Date(1549843200000)\/",
@@ -754,35 +754,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000271')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000271')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000271')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000271')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000271')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000271')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000271')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000271')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000271')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000271')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000283')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000283')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000283')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000283')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000283",
 		"CreatedAt": "\/Date(1553731200000)\/",
@@ -795,35 +795,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000283')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000283')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000283')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000283')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000283')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000283')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000283')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000283')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000283')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000283')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000273')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000273')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000273')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000273')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000273",
 		"CreatedAt": "\/Date(1549843200000)\/",
@@ -836,35 +836,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000273')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000273')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000273')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000273')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000273')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000273')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000273')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000273')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000273')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000273')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000274')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000274')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000274')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000274')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000274",
 		"CreatedAt": "\/Date(1550188800000)\/",
@@ -877,35 +877,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000274')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000274')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000274')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000274')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000274')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000274')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000274')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000274')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000274')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000274')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000275')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000275')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000275')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000275')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000275",
 		"CreatedAt": "\/Date(1550188800000)\/",
@@ -918,35 +918,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000275')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000275')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000275')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000275')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000275')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000275')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000275')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000275')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000275')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000275')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000277')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000277')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000277')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000277')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000277",
 		"CreatedAt": "\/Date(1550275200000)\/",
@@ -959,35 +959,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000277')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000277')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000277')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000277')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000277')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000277')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000277')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000277')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000277')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000277')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000276')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000276')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000276')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000276')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000276",
 		"CreatedAt": "\/Date(1550188800000)\/",
@@ -1000,35 +1000,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000276')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000276')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000276')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000276')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000276')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000276')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000276')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000276')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000276')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000276')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000279')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000279')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000279')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000279')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000279",
 		"CreatedAt": "\/Date(1552435200000)\/",
@@ -1041,35 +1041,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000279')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000279')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000279')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000279')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000279')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000279')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000279')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000279')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000279')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000279')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000278')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000278')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000278')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000278')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000278",
 		"CreatedAt": "\/Date(1552435200000)\/",
@@ -1082,35 +1082,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000278')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000278')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000278')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000278')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000278')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000278')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000278')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000278')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000278')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000278')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000280')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000280')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000280')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000280')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000280",
 		"CreatedAt": "\/Date(1552521600000)\/",
@@ -1123,35 +1123,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000280')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000280')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000280')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000280')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000280')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000280')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000280')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000280')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000280')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000280')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000281')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000281')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000281')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000281')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000281",
 		"CreatedAt": "\/Date(1552521600000)\/",
@@ -1164,35 +1164,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000281')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000281')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000281')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000281')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000281')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000281')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000281')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000281')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000281')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000281')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000282')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000282')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000282')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000282')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000282",
 		"CreatedAt": "\/Date(1552521600000)\/",
@@ -1205,35 +1205,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000282')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000282')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000282')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000282')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000282')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000282')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000282')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000282')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000282')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000282')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000284')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000284')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000284')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000284')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000284",
 		"CreatedAt": "\/Date(1553731200000)\/",
@@ -1246,35 +1246,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000284')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000284')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000284')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000284')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000284')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000284')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000284')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000284')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000284')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000284')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000272')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000272')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000272')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000272')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000272",
 		"CreatedAt": "\/Date(1549843200000)\/",
@@ -1287,35 +1287,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000272')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000272')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000272')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000272')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000272')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000272')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000272')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000272')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000272')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000272')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000285')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000285')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000285')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000285')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000285",
 		"CreatedAt": "\/Date(1554249600000)\/",
@@ -1328,35 +1328,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000285')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000285')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000285')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000285')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000285')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000285')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000285')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000285')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000285')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000285')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000286')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000286')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000286')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000286')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000286",
 		"CreatedAt": "\/Date(1554249600000)\/",
@@ -1369,35 +1369,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000286')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000286')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000286')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000286')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000286')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000286')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000286')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000286')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000286')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000286')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000287')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000287')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000287')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000287')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000287",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1410,35 +1410,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000287')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000287')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000287')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000287')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000287')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000287')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000287')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000287')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000287')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000287')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000288')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000288')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000288')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000288')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000288",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1451,35 +1451,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000288')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000288')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000288')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000288')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000288')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000288')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000288')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000288')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000288')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000288')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000289')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000289')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000289')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000289')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000289",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1492,35 +1492,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000289')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000289')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000289')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000289')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000289')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000289')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000289')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000289')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000289')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000289')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000290')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000290')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000290')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000290')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000290",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1533,35 +1533,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000290')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000290')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000290')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000290')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000290')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000290')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000290')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000290')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000290')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000290')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000291')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000291')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000291')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000291')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000291",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1574,35 +1574,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000291')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000291')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000291')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000291')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000291')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000291')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000291')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000291')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000291')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000291')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000292')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000292')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000292')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000292')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000292",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1615,35 +1615,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000292')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000292')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000292')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000292')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000292')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000292')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000292')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000292')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000292')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000292')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000293')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000293')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000293')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000293')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000293",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1656,35 +1656,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000293')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000293')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000293')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000293')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000293')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000293')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000293')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000293')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000293')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000293')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000294')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000294')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000294')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000294')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000294",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1697,35 +1697,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000294')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000294')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000294')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000294')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000294')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000294')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000294')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000294')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000294')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000294')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000296')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000296')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000296')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000296')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000296",
 		"CreatedAt": "\/Date(1554336000000)\/",
@@ -1738,35 +1738,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000296')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000296')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000296')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000296')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000296')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000296')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000296')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000296')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000296')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000296')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000297')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000297')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000297')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000297')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000297",
 		"CreatedAt": "\/Date(1554940800000)\/",
@@ -1779,35 +1779,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000297')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000297')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000297')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000297')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000297')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000297')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000297')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000297')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000297')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000297')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000298')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000298')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000298')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000298')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000298",
 		"CreatedAt": "\/Date(1554940800000)\/",
@@ -1820,35 +1820,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000298')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000298')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000298')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000298')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000298')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000298')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000298')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000298')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000298')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000298')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000299')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000299')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000299')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000299')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000299",
 		"CreatedAt": "\/Date(1554940800000)\/",
@@ -1861,35 +1861,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000299')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000299')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000299')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000299')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000299')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000299')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000299')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000299')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000299')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000299')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000295')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000295')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000295')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000295')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000295",
 		"CreatedAt": "\/Date(1554422400000)\/",
@@ -1902,35 +1902,35 @@
 		"DocumentTypeDescription": "Contrato",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000295')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000295')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000295')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000295')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000295')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000295')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000295')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000295')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000295')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000295')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000300')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000300')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000300')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000300')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000300",
 		"CreatedAt": "\/Date(1555113600000)\/",
@@ -1943,35 +1943,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000300')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000300')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000300')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000300')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000300')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000300')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000300')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000300')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000300')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000300')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000301')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000301')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000301')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000301')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000301",
 		"CreatedAt": "\/Date(1555113600000)\/",
@@ -1984,35 +1984,35 @@
 		"DocumentTypeDescription": "Contrato",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000301')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000301')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000301')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000301')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000301')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000301')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000301')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000301')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000301')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000301')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000302')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000302')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000302')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000302')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000302",
 		"CreatedAt": "\/Date(1555459200000)\/",
@@ -2025,35 +2025,35 @@
 		"DocumentTypeDescription": "Contrato",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000302')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000302')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000302')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000302')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000302')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000302')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000302')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000302')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000302')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000302')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000303')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000303')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000303')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000303')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000303",
 		"CreatedAt": "\/Date(1555459200000)\/",
@@ -2066,35 +2066,35 @@
 		"DocumentTypeDescription": "Contrato",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000303')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000303')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000303')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000303')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000303')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000303')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000303')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000303')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000303')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000303')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000304')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000304')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000304')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000304')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000304",
 		"CreatedAt": "\/Date(1555459200000)\/",
@@ -2107,35 +2107,35 @@
 		"DocumentTypeDescription": "Contrato",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000304')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000304')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000304')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000304')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000304')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000304')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000304')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000304')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000304')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000304')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000305')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000305')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000305')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000305')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000305",
 		"CreatedAt": "\/Date(1555459200000)\/",
@@ -2148,35 +2148,35 @@
 		"DocumentTypeDescription": "Contrato",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000305')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000305')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000305')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000305')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000305')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000305')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000305')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000305')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000305')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000305')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000306')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000306')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000306')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000306')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000306",
 		"CreatedAt": "\/Date(1565222400000)\/",
@@ -2189,35 +2189,35 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000306')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000306')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000306')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000306')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000306')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000306')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000306')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000306')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000306')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000306')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000307')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000307')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000307')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000307')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000307",
 		"CreatedAt": "\/Date(1565654400000)\/",
@@ -2230,35 +2230,35 @@
 		"DocumentTypeDescription": "Pedido",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000307')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000307')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000307')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000307')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000307')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000307')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000307')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000307')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000307')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000307')/ContractItems"
 			}
 		}
 	},
 	{
 		"__metadata": {
-			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000264')",
-			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000264')",
-			"type": "ZPORTAL_QUOTATION_MAP_SRV.QuotationMap"
+			"id": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000264')",
+			"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000264')",
+			"type": "ZPORTAL_QUOTATION_MAP_SRV.CriaCotacao"
 		},
 		"SolcotNo": "600000000264",
 		"CreatedAt": "\/Date(1548720000000)\/",
@@ -2271,27 +2271,27 @@
 		"DocumentTypeDescription": "",
 		"Items": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000264')/Items"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000264')/Items"
 			}
 		},
 		"Suppliers": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000264')/Suppliers"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000264')/Suppliers"
 			}
 		},
 		"GeneratedDocs": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000264')/GeneratedDocs"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000264')/GeneratedDocs"
 			}
 		},
 		"Log": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000264')/Log"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000264')/Log"
 			}
 		},
 		"ContractItems": {
 			"__deferred": {
-				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/QuotationMapSet('600000000264')/ContractItems"
+				"uri": "http://s4d.patrimar.com.br:8090/sap/opu/odata/sap/ZPORTAL_QUOTATION_MAP_SRV/CriaCotacaoSet('600000000264')/ContractItems"
 			}
 		}
 	}

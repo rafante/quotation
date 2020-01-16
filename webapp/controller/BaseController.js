@@ -11,7 +11,7 @@ sap.ui.define(
     "use strict";
 
     return Controller.extend(
-      "br.com.patrimar.quotationmap.controller.BaseController",
+      "br.com.patrimar.criacotacao.controller.BaseController",
       {
         /**
          * Convenience method for accessing the router.
@@ -79,7 +79,7 @@ sap.ui.define(
           // initialize loading dialog
           if (!this._dialogLoading) {
             this._dialogLoading = sap.ui.xmlfragment(
-              "br.com.patrimar.quotationmap.fragment.DialogLoading",
+              "br.com.patrimar.criacotacao.fragment.DialogLoading",
               this
             );
             this.getView().addDependent(this._dialogLoading);

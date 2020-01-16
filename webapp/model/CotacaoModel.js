@@ -2,30 +2,30 @@ sap.ui.define(
   [
     "sap/ui/base/Object",
     "sap/ui/model/json/JSONModel",
-    "br/com/patrimar/quotationmap/model/BaseModel"
+    "br/com/patrimar/criacotacao/model/BaseModel"
   ],
-  function(Object, JSONModel, BaseModel) {
+  function (Object, JSONModel, BaseModel) {
     "use strict";
     var instance;
 
-    var QuotationMapModel = BaseModel.extend(
-      "br.com.patrimar.quotationmap.model.QuotationMapModel",
+    var CotacaoModel = BaseModel.extend(
+      "br.com.patrimar.criacotacao.model.CotacaoModel",
       {
         /**
          * Construtor (Definindo um ODataModel)
          * @param {*} oModel
          */
-        constructor: function(oModel) {
-          this.ENTITY_SET_NAME = "QuotationMapSet";
+        constructor: function (oModel) {
+          this.ENTITY_SET_NAME = "CotacaoSet";
           this.setODataModel(oModel);
         }
       }
     );
 
     return {
-      getInstance: function(oModel) {
+      getInstance: function (oModel) {
         if (!instance) {
-          instance = new QuotationMapModel(oModel);
+          instance = new CotacaoModel(oModel);
         }
         return instance;
       }

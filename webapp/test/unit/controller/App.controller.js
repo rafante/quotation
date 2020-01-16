@@ -1,7 +1,7 @@
 /*global QUnit*/
 
 sap.ui.define(
-  ["br/com/patrimar/quotationmap/controller/App.controller"],
+  ["br/com/patrimar/criacotacao/controller/App.controller"],
   function(Controller) {
     "use strict";
 
