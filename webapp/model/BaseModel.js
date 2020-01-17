@@ -52,7 +52,7 @@ sap.ui.define(["sap/ui/base/Object"], function (Object) {
      */
     getPathFromKey: function (entitySetName, key) {
       // TODO: Escrever testes unitários
-      return `/${entitySetName}('${key}')`;
+      return `/${entitySetName}(${key})`;
     },
 
     /**

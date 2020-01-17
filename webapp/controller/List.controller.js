@@ -37,7 +37,9 @@ sap.ui.define(
          */
         onListItemPressed: function (oItem) {
           var sPath = oItem.getSource().getBindingContextPath();
-          var key = this.getModel("jModel").getProperty(sPath).SolcotNo;
+          var solcotNo = this.getModel("jModel").getProperty(sPath).SolcotNo;
+          var cotNo = this.getModel("jModel").getProperty(sPath).CotNo;
+          var key = `SolcotNo='${solcotNo}',CotNo='${cotNo}'`;
 
           // Navega para o detalhe
           this.getRouter().navTo("Detail", {
