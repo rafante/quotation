@@ -1,0 +1,102 @@
+<core:FragmentDefinition xmlns="sap.m" 
+    xmlns:grid="sap.ui.layout.cssgrid" 
+    xmlns:f="sap.f" 
+    xmlns:card="sap.f.cards" 
+    xmlns:core="sap.ui.core" 
+    xmlns:layout="sap.ui.layout" 
+    xmlns:form="sap.ui.layout.form" 
+    xmlns:dnd="sap.ui.core.dnd" 
+    xmlns:dnd-grid="sap.f.dnd">
+    <f:GridList class="sapUiResponsiveContentPadding" id="gridContent" headerText="Detalhes do Item Selecionado" items="{ path: 'quotationItemDetail>/' }">
+        <f:GridListItem counter="{quotationItemDetail>itemId}" highlight="{quotationItemDetail>highlight}" type="{quotationItemDetail>type}" unread="{quotationItemDetail>unread}">
+            <f:Card>
+                <f:header>
+                    <card:Header title="{quotationItemDetail>MaterialDescription}" subtitle="{parts: [{path: 'quotationItemDetail>RequestedQuantity'}, {path: 'quotationItemDetail>Unit'}], formatter: '.materialDetailDescription'}"/>
+                </f:header>
+                <f:content>
+                    <HBox width="100%">
+                        <VBox height="100%">
+                            <IconTabBar id="idIconTabBarMulti" expandable="false" applyContentPadding="true" backgroundDesign="Transparent" expanded="true">
+                                <items>
+                                    <IconTabFilter text="Estoque">
+                                        <HBox width="700px">
+                                            <VBox height="230px">
+                                                <form:SimpleForm id="formProduct" editable="true" layout="ResponsiveGridLayout" singleContainerFullSize="false">
+                                                    <form:content>
+                                                        <Label text="Quantidade disponível" />
+                                                        <Input id="name" value="{quotationItemDetail>AvailableQuantity}" />
+                                                        <Label text="Disponível em" labelFor="DTI1"/>
+                                                        <DateTimeInput id="DTI1" type="Date" placeholder="quando" class="sapUiSmallMarginBottom" text="{quotationItemDetail>AvailableAt}"/>
+                                                        <Input value="{quotationItemDetail>MaterialDescription}">
+                                                            <layoutData>
+                                                                <layout:GridData span="XL1 L2 M2 S4" />
+                                                            </layoutData>
+                                                        </Input>
+                                                    </form:content>
+                                                </form:SimpleForm>
+                                            </VBox>
+                                        </HBox>
+                                    </IconTabFilter>
+                                    <IconTabFilter text="Valores">
+                                        <VBox height="100%">
+                                            <HBox width="700px">
+                                                <VBox height="100%">
+                                                    <form:SimpleForm id="formValues1" editable="true" layout="ColumnLayout" singleContainerFullSize="true">
+                                                        <form:content>
+                                                            <Label text="Preço" tooltip=""/>
+                                                            <Input type="Number" value="{quotationItemDetail>GrossPrice}" placeholder="Preço"/>
+                                                            <Label text="Unidade" tooltip=""/>
+                                                            <Input maxLength="4" value="{quotationItemDetail>Unit}" editable="false" placeholder="Unidade"/>
+                                                            <Label text="Desconto" tooltip=""/>
+                                                            <Input type="Number" value="{quotationItemDetail>Discount}" placeholder="Desconto"/>
+                                                        </form:content>
+                                                    </form:SimpleForm>
+                                                </VBox>
+                                                <VBox height="100%">
+                                                    <form:SimpleForm id="formValues2" editable="true" layout="ColumnLayout" singleContainerFullSize="true">
+                                                        <form:content>
+                                                            <Label text="Ipi" tooltip=""/>
+                                                            <Input type="Number" value="{quotationItemDetail>IpiRate}" placeholder="IPI"/>
+                                                            <Label text="ICMS" tooltip=""/>
+                                                            <Input type="Number" value="{quotationItemDetail>Icms}" placeholder="ICMS"/>
+                                                            <Label text="PIS" tooltip=""/>
+                                                            <Input type="Number" value="{quotationItemDetail>Pis}" placeholder="PIS"/>
+                                                        </form:content>
+                                                    </form:SimpleForm>
+                                                </VBox>
+                                                <VBox height="100%">
+                                                    <form:SimpleForm id="formValues3" editable="true" layout="ColumnLayout" singleContainerFullSize="true">
+                                                        <form:content>
+                                                            <Label text="Cofins" tooltip=""/>
+                                                            <Input type="Number" value="{quotationItemDetail>Cofins}" placeholder="COFINS"/>
+                                                            <Label text="ICMS Subst. Tributária" tooltip=""/>
+                                                            <Input type="Number" value="{quotationItemDetail>IcmsSt}" placeholder="Subst.Tributária"/>
+                                                        </form:content>
+                                                    </form:SimpleForm>
+                                                </VBox>
+                                            </HBox>
+                                        </VBox>
+                                    </IconTabFilter>
+                                    <IconTabFilter text="Outros">
+                                        <HBox width="700px">
+                                            <VBox height="230px">
+                                                <form:SimpleForm id="formOthers" editable="true" layout="ResponsiveGridLayout" singleContainerFullSize="false">
+                                                    <form:content>
+                                                        <Label text="Marcas" />
+                                                        <Input value="{quotationItemDetail>Marcas}" />
+                                                        <Label text="Notas" />
+                                                        <TextArea value="{quotationItemDetail>Notes}" rows="4" maxLength="255" />
+                                                    </form:content>
+                                                </form:SimpleForm>
+                                            </VBox>
+                                        </HBox>
+                                    </IconTabFilter>
+                                </items>
+                            </IconTabBar>
+                        </VBox>
+                    </HBox>
+                </f:content>
+            </f:Card>
+        </f:GridListItem>
+    </f:GridList>
+</core:FragmentDefinition>

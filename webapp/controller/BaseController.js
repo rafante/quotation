@@ -7,7 +7,7 @@ sap.ui.define(
     "sap/m/MessageBox",
     "sap/m/library"
   ],
-  function(Controller, UIComponent, History, JSONModel, MessageBox) {
+  function (Controller, UIComponent, History, JSONModel, MessageBox) {
     "use strict";
 
     return Controller.extend(
@@ -18,7 +18,7 @@ sap.ui.define(
          * @public
          * @returns {sap.ui.core.routing.Router} the router for this component
          */
-        getRouter: function() {
+        getRouter: function () {
           return UIComponent.getRouterFor(this);
         },
 
@@ -28,7 +28,7 @@ sap.ui.define(
          * @param {string} [sName] the model name
          * @returns {sap.ui.model.Model} the model instance
          */
-        getModel: function(sName) {
+        getModel: function (sName) {
           return this.getView().getModel(sName);
         },
 
@@ -39,7 +39,7 @@ sap.ui.define(
          * @param {string} sName the model name
          * @returns {sap.ui.mvc.View} the view instance
          */
-        setModel: function(oModel, sName) {
+        setModel: function (oModel, sName) {
           return this.getView().setModel(oModel, sName);
         },
 
@@ -48,7 +48,7 @@ sap.ui.define(
          * @public
          * @returns {sap.ui.model.resource.ResourceModel} the resourceModel of the component
          */
-        getResourceBundle: function() {
+        getResourceBundle: function () {
           return this.getOwnerComponent()
             .getModel("i18n")
             .getResourceBundle();
@@ -59,7 +59,7 @@ sap.ui.define(
          * @public
          * @returns the message (i18n)
          */
-        getBundleMessage: function(name, args) {
+        getBundleMessage: function (name, args) {
           var oBundle = this.getResourceBundle();
           var message = "";
           if (args) {
@@ -70,12 +70,12 @@ sap.ui.define(
           return message;
         },
 
-        loadInitialData: function() {
+        loadInitialData: function () {
           this.linkLoadingFragment();
           this._dialogLoading.open();
         },
 
-        linkLoadingFragment: function() {
+        linkLoadingFragment: function () {
           // initialize loading dialog
           if (!this._dialogLoading) {
             this._dialogLoading = sap.ui.xmlfragment(
@@ -87,12 +87,12 @@ sap.ui.define(
         },
 
         // generic error dialog
-        showGenericDataErrorDialog: function() {
+        showGenericDataErrorDialog: function () {
           var message = this.getBundleMessage("DataLoadingError");
           MessageBox.error(message);
         },
 
-        prepare: function(modelInstance, route, modelName = "jModel") {
+        prepare: function (modelInstance, route, modelName = "jModel") {
           // Seta o atributo modelInstance (que contém um modelo da pasta 'model')
           if (modelInstance) this.modelInstance = modelInstance;
 
@@ -103,18 +103,18 @@ sap.ui.define(
           if (route) this.prepareRouting(route);
         },
 
-        prepareRouting: function(route, callback = this._onObjectMatched) {
+        prepareRouting: function (route, callback = this._onObjectMatched) {
           // initialize routing
           this.getRouter()
             .getRoute(route)
             .attachPatternMatched(callback, this);
         },
 
-        getModelInstance: function() {
+        getModelInstance: function () {
           return this.modelInstance;
         },
 
-        onNavBack: function() {
+        onNavBack: function () {
           var oHistory, sPreviousHash;
 
           oHistory = History.getInstance();
@@ -131,16 +131,25 @@ sap.ui.define(
          * Evento acionado após a navegação, logo após a rota ser preparada
          * @param {*} oEvent
          */
-        _onObjectMatched: function(oEvent) {
+        _onObjectMatched: function (oEvent) {
           var key = oEvent.getParameter("arguments").key;
 
           this.getModelInstance()
             .readByKey(key)
             .then(
-              function(data) {
+              function (data) {
                 this.getModel("jModel").setData(data);
+                this.afterObjectMatched(oEvent);
               }.bind(this)
             );
+        },
+
+        /**
+         * Evento disparado ao carregar os dados no model após o match do routing
+         * @param {*} oEvent 
+         */
+        afterObjectMatched: function (oEvent) {
+          console.log('passou no base');
         }
       }
     );

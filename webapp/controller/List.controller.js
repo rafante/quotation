@@ -48,6 +48,13 @@ sap.ui.define(
         },
 
         /**
+        * Recupera a lista do backend
+        */
+        readList: function () {
+          return this.readByPath("/" + this.ENTITY_SET_NAME + '?$expand=ItemCotacao');
+        },
+
+        /**
          * MÉTODOS
          */
 

@@ -1,0 +1,19 @@
+<core:FragmentDefinition xmlns="sap.m" 
+    xmlns:grid="sap.ui.layout.cssgrid" 
+    xmlns:f="sap.f" 
+    xmlns:core="sap.ui.core" 
+    xmlns:dnd="sap.ui.core.dnd" 
+    xmlns:dnd-grid="sap.f.dnd">
+    <f:GridList mode="None" selectionChange="onSelectionChange" class="sapUiResponsiveContentPadding" id="gridItems" headerText="Items da cotação" items="{ path: 'quotationItems>/' }">
+        <f:GridListItem counter="{quotationItems>counter}" highlight="{= ${quotationItems>selected} ? 'Warning' : 'None'}" press="onDetailPress" type="{quotationItems>type}" unread="{quotationItems>unread}">
+            <VBox height="50px" class="sapUiSmallMargin" justifyContent="Between">
+                <HBox justifyContent="SpaceBetween">
+                </HBox>
+                <HBox justifyContent="SpaceBetween">
+                    <Title text="{quotationItems>title}" wrapping="true" />
+                    <Label text="{quotationItems>subtitle}" wrapping="true" />
+                </HBox>
+            </VBox>
+        </f:GridListItem>
+    </f:GridList>
+</core:FragmentDefinition>

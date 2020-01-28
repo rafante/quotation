@@ -24,5 +24,20 @@ sap.ui.define(
       assert.equal(formatter.getStatusState("C"), ValueState.Information);
       assert.equal(formatter.getStatusState(), ValueState.Error);
     });
+
+    QUnit.test("I should return a value formatted like money", function (assert) {
+      assert.equal(formatter.likePrice("000"), "0,00");
+      assert.equal(formatter.likePrice("1"), "0,01");
+      assert.equal(formatter.likePrice("10"), "0,10");
+      assert.equal(formatter.likePrice("200"), "2,00");
+      assert.equal(formatter.likePrice("2,33"), "2,33");
+      assert.equal(formatter.likePrice("233"), "2,33");
+      assert.equal(formatter.likePrice("13425.9222255"), "1342592222,55");
+      assert.equal(formatter.likePrice("20000"), "200,00");
+      assert.equal(formatter.likePrice("00200"), "2,00");
+      assert.equal(formatter.likePrice(null), "0,00");
+      assert.equal(formatter.likePrice(undefined), "0,00");
+      assert.equal(formatter.likePrice(0), "0,00");
+    });
   }
 );

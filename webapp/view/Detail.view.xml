@@ -1,26 +1,48 @@
-<mvc:View id="DetailsPrice" controllerName="br.com.patrimar.criacotacao.controller.Detail" displayBlock="true" 
-	xmlns:mvc="sap.ui.core.mvc" 
+<mvc:View controllerName="br.com.patrimar.criacotacao.controller.Detail" 
 	xmlns="sap.m" 
-	xmlns:l="sap.ui.layout" 
-	xmlns:f="sap.ui.layout.form" 
-	xmlns:core="sap.ui.core">
+	xmlns:grid="sap.ui.layout.cssgrid" 
+	xmlns:f="sap.f" 
+	xmlns:card="sap.f.cards" 
+	xmlns:core="sap.ui.core" 
+	xmlns:dnd="sap.ui.core.dnd" 
+	xmlns:dnd-grid="sap.f.dnd" 
+	xmlns:mvc="sap.ui.core.mvc" class="fullHeight">
 	<App>
 		<pages>
 			<Page showHeader="false">
+				<ObjectHeader condensed="true" responsive="true" title="{jModel>/SolcotNo}">
+					<statuses>
+						<ObjectStatus icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
+										path: 'jModel>/Status',
+										formatter: '.formatter.getStatusState'
+									}" text="{jModel>/StatusDescription}"/>
+					</statuses>
+					<ObjectAttribute title="{i18n>PurchaseOrg}" text="{jModel>/PurchaseOrg}"/>
+					<ObjectAttribute title="{i18n>CreatedAt}" text="{
+									path: 'jModel>/CreatedAt',
+									formatter: '.formatter.getFormattedDate'
+								}" />
+					<ObjectAttribute title="{i18n>ValidTo}" text="{
+									path: 'jModel>/ValidTo',
+									formatter: '.formatter.getFormattedDate'
+								}"/>
+					<ObjectAttribute title="{i18n>DocumentType}" text="{jModel>/DocumentType}"/>
+				</ObjectHeader>
 				<content>
-					<ObjectHeader icon="sap-icon://map" title="{jModel>SolcotNo}" titleLevel="H1" number="{/jModel>SolcotNo}" backgroundDesign="Translucent">
-						<statuses>
-							<ObjectStatus icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
-									path: 'jModel>/Status',
-									formatter: '.formatter.getStatusState'
-								}" text="{jModel>/StatusDescription}"/>
-						</statuses>
-						<attributes>
-							<ObjectAttribute title="{i18n>SolcotNo}" text="{jModel>/SolcotNo}"/>
-						</attributes>
-					</ObjectHeader>
-
+					<grid:CSSGrid id="grid1" gridTemplateColumns="1fr 3fr" gridGap="1rem">
+						<core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.QuotationItems" type="XML" />
+						<core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.ItemDetails" type="XML" />
+					</grid:CSSGrid>
 				</content>
+				<footer>
+					<OverflowToolbar>
+						<ToolbarSpacer/>
+						<Button text="Accept" type="Accept" />
+						<Button text="Reject" type="Reject" />
+						<Button text="Edit" />
+						<Button text="Delete" />
+					</OverflowToolbar>
+				</footer>
 			</Page>
 		</pages>
 	</App>

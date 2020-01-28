@@ -18,7 +18,31 @@ sap.ui.define(
         constructor: function (oModel) {
           this.ENTITY_SET_NAME = "CotacaoSet";
           this.setODataModel(oModel);
-        }
+        },
+
+        /**
+         * Genérico - Efetua a leitura dos dados no backend de acordo com o sPath
+         * @param {*} sPath
+         */
+        readByPath: function (sPath, propName) {
+          return new Promise(
+            function (res, rej) {
+              var oModel = this.getODataModel();
+
+              oModel.read(sPath, {
+                urlParameters: {
+                  '$expand': 'ItemCotacao,Plants'
+                },
+                success: function (data, response) {
+                  res(data, response);
+                }.bind(this),
+                error: function (oError) {
+                  rej(oError);
+                }.bind(this)
+              });
+            }.bind(this)
+          );
+        },
       }
     );
 
