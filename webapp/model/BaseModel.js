@@ -11,12 +11,13 @@ sap.ui.define(["sap/ui/base/Object"], function (Object) {
      * Genérico - Efetua a leitura dos dados no backend de acordo com o sPath
      * @param {*} sPath
      */
-    readByPath: function (sPath, propName) {
+    readByPath: function (sPath, urlParameters) {
       return new Promise(
         function (res, rej) {
           var oModel = this.getODataModel();
 
           oModel.read(sPath, {
+            urlParameters: urlParameters,
             success: function (data, response) {
               res(data, response);
             }.bind(this),
@@ -31,17 +32,17 @@ sap.ui.define(["sap/ui/base/Object"], function (Object) {
     /**
      * Recupera a lista do backend
      */
-    readList: function () {
-      return this.readByPath("/" + this.ENTITY_SET_NAME);
+    readList: function (urlParameters) {
+      return this.readByPath("/" + this.ENTITY_SET_NAME, urlParameters);
     },
 
     /**
      * Recupera a lista do backend
      */
-    readByKey: function (key) {
+    readByKey: function (key, urlParameters = null) {
       // Ex.: /CriaCotacaoSet('0000000001')
       var sPath = this.getPathFromKey(this.ENTITY_SET_NAME, key);
-      return this.readByPath(sPath);
+      return this.readByPath(sPath, urlParameters);
     },
 
     /**

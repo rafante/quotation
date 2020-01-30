@@ -1,49 +1,125 @@
 <mvc:View controllerName="br.com.patrimar.criacotacao.controller.Detail" 
-	xmlns="sap.m" 
-	xmlns:grid="sap.ui.layout.cssgrid" 
-	xmlns:f="sap.f" 
-	xmlns:card="sap.f.cards" 
 	xmlns:core="sap.ui.core" 
-	xmlns:dnd="sap.ui.core.dnd" 
-	xmlns:dnd-grid="sap.f.dnd" 
+	xmlns="sap.m" 
+	xmlns:layout="sap.ui.layout" 
 	xmlns:mvc="sap.ui.core.mvc" class="fullHeight">
-	<App>
-		<pages>
-			<Page showHeader="false">
-				<ObjectHeader condensed="true" responsive="true" title="{jModel>/SolcotNo}">
-					<statuses>
-						<ObjectStatus icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
-										path: 'jModel>/Status',
-										formatter: '.formatter.getStatusState'
-									}" text="{jModel>/StatusDescription}"/>
-					</statuses>
-					<ObjectAttribute title="{i18n>PurchaseOrg}" text="{jModel>/PurchaseOrg}"/>
-					<ObjectAttribute title="{i18n>CreatedAt}" text="{
-									path: 'jModel>/CreatedAt',
-									formatter: '.formatter.getFormattedDate'
-								}" />
-					<ObjectAttribute title="{i18n>ValidTo}" text="{
-									path: 'jModel>/ValidTo',
-									formatter: '.formatter.getFormattedDate'
-								}"/>
-					<ObjectAttribute title="{i18n>DocumentType}" text="{jModel>/DocumentType}"/>
-				</ObjectHeader>
+	<Page id="idPage" class= "sapUiResponsivePadding--header">
+		<!-- this CSS class add a standard spacing to all the page content -->
+		<content>
+			<ObjectHeader title="Solicitação de Cotação: {jModel>/SolcotNo}" condensed="true" backgroundDesign="Solid">
+			</ObjectHeader>
+			<Panel expandable="true" expanded="true" headerText="{i18n>Solicitacao}" width="auto" class="sapUiResponsiveMargin">
 				<content>
-					<grid:CSSGrid id="grid1" gridTemplateColumns="1fr 3fr" gridGap="1rem">
-						<core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.QuotationItems" type="XML" />
-						<core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.ItemDetails" type="XML" />
-					</grid:CSSGrid>
+					<HBox>
+						<VBox width="400px">
+							<Label text="{i18n>CreatedAt}:" design="Bold" class="sapUiSmallMarginTop"/>
+							<ObjectAttribute text="{ path: 'jModel>/CreatedAt', formatter: '.formatter.getFormattedDate' }"/>
+							<Label text="{i18n>ValidTo}:" design="Bold" class="sapUiSmallMarginTop"/>
+							<ObjectAttribute text="{ path: 'jModel>/ValidTo', formatter: '.formatter.getFormattedDate' }"/>
+						</VBox>
+						<VBox width="400px">
+							<Label text="{i18n>Status}:" design="Bold" class="sapUiSmallMarginTop"/>
+							<ObjectAttribute text="{jModel>/Status}"/>
+						</VBox>
+						<VBox width="400px">
+							<Label text="{i18n>DescricaoStatus}:" design="Bold" class="sapUiSmallMarginTop"/>
+							<ObjectAttribute text="{jModel>StatusDescription}"/>
+						</VBox>
+					</HBox>
 				</content>
-				<footer>
-					<OverflowToolbar>
-						<ToolbarSpacer/>
-						<Button text="Accept" type="Accept" />
-						<Button text="Reject" type="Reject" />
-						<Button text="Edit" />
-						<Button text="Delete" />
-					</OverflowToolbar>
-				</footer>
-			</Page>
-		</pages>
-	</App>
+			</Panel>
+			<Panel expandable="true" expanded="true" headerText="{i18n>ItensSolicitados}" width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<Table id="itensSolicitados" inset="false" items="{
+							path: 'jModel>/SolicitacaoCotacaoItems/results',
+							sorter: {
+								path: 'SolcotNo'
+							}
+						}">
+						<columns>
+							<Column width="12em">
+								<Text text="{i18n>Material}" />
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true">
+								<Text text="{i18n>Plant}" />
+							</Column>
+							<Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+								<Text text="{i18n>TxtItem}" />
+							</Column>
+							<Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+								<Text text="{i18n>Quantity}" />
+							</Column>
+							<Column hAlign="End">
+								<Text text="{i18n>Unit}" />
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem>
+								<cells>
+									<Text text="{jModel>Material}"/>
+									<Text text="{jModel>Plant}" />
+									<Text text="{jModel>TxtItem}" />
+									<Text text="{jModel>Quantity}" />
+									<Text text="{jModel>Unit}" />
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Panel>
+			<Panel expandable="true" expanded="true" headerText="{i18n>CotacoesEnviadas}" width="auto" class="sapUiResponsiveMargin">
+				<content>
+					<Table id="cotacoesEnviadas" detailPress="teste" inset="false" items="{
+							path: 'jModel>/Cotacao/results',
+							sorter: {
+								path: 'Supplier'
+							}
+						}">
+						<columns>
+							<Column width="12em">
+								<Text text="{i18n>SolcotNo}" />
+							</Column>
+							<Column minScreenWidth="Tablet" demandPopin="true">
+								<Text text="{i18n>CotNo}" />
+							</Column>
+							<Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+								<Text text="{i18n>CreatedAt}" />
+							</Column>
+							<Column minScreenWidth="Desktop" demandPopin="true" hAlign="Center">
+								<Text text="{i18n>ValidTo}" />
+							</Column>
+							<Column hAlign="Center">
+								<Text text="{i18n>Supplier}" />
+							</Column>
+							<Column hAlign="End">
+								<Text text="{i18n>Status}" />
+							</Column>
+							<Column hAlign="Center">
+								<Text text="{i18n>StatusDescription}" />
+							</Column>
+						</columns>
+						<items>
+							<ColumnListItem type="Active" press="showQuotation">
+								<cells>
+									<Text text="{jModel>SolcotNo}"/>
+									<Text text="{jModel>CotNo}" />
+									<Text text="{path: 'jModel>CreatedAt', formatter: '.formatter.getFormattedDate'}" />
+									<Text text="{path: 'jModel>ValidTo', formatter: '.formatter.getFormattedDate'}" />
+									<Text text="{jModel>Supplier}" />
+									<Text text="{jModel>Status}" />
+									<Text text="{jModel>StatusDescription}" />
+								</cells>
+							</ColumnListItem>
+						</items>
+					</Table>
+				</content>
+			</Panel>
+		</content>
+		<footer>
+			<OverflowToolbar class="sapUiSizeCompact sapUxAPObjectPageFooter sapUxAPObjectPageFloatingFooter">
+				<ToolbarSpacer/>
+				<Button text="{i18n>CriarCotacao}" type="Accept" />
+			</OverflowToolbar>
+		</footer>
+	</Page>
 </mvc:View>

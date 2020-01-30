@@ -1,7 +1,7 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/criacotacao/model/CotacaoModel", 'sap/ui/model/json/JSONModel',
-    'criacotacao/formatter/formatter'],
-  function (BaseController, CotacaoModel, JSONModel, formatter) {
+  ["./BaseController", "br/com/patrimar/criacotacao/model/SolicitacaoCotacaoModel", 'sap/ui/model/json/JSONModel',
+    'criacotacao/formatter/formatter', 'sap/ui/model/Filter'],
+  function (BaseController, SolicitacaoCotacaoModel, JSONModel, formatter, Filter) {
     "use strict";
 
     return BaseController.extend(
@@ -17,7 +17,7 @@ sap.ui.define(
           var oModel = this.getOwnerComponent().getModel();
 
           // Prepara o controller (Model, Routing)
-          this.prepare(CotacaoModel.getInstance(oModel), "Detail");
+          this.prepare(SolicitacaoCotacaoModel.getInstance(oModel), "Detail");
         },
 
         /**
@@ -55,15 +55,43 @@ sap.ui.define(
           return 'Quantidade solicitada: ' + quantity + ' ' + unit;
         },
 
-        likePrice: function (priceValue) {
-          var formattedPrice = '0.00'
-          if (priceValue && !isNaN(priceValue.replace(/\D/g, ''))) formattedPrice = priceValue.replace(/\D/g, '');
-          if (formattedPrice.length < 3)
-            formattedPrice = '0.' + formattedPrice.padStart(2, '0');
-          else
-            formattedPrice = (Number(formattedPrice).toFixed(2) / 100).toFixed(2).toString();
+        onSelectPayTerms: function () {
+          alert('Funcionou');
+        },
 
-          return formattedPrice.replace('.', ',');
+        handleValueHelp: function (oEvent) {
+          var sInputValue = oEvent.getSource().getValue();
+
+          this.inputId = oEvent.getSource().getId();
+          // create value help dialog
+          if (!this._valueHelpDialog) {
+            this._valueHelpDialog = sap.ui.xmlfragment(
+              "br.com.patrimar.criacotacao.fragment.SelectPayTerms",
+              this
+            );
+            this.getView().addDependent(this._valueHelpDialog);
+          }
+
+          // create a filter for the binding
+          this._valueHelpDialog.getBinding("items").filter([new Filter(
+            "Title",
+            sap.ui.model.FilterOperator.Contains, sInputValue
+          )]);
+
+          // open value help dialog filtered by the input value
+          this._valueHelpDialog.open(sInputValue);
+        },
+
+        showQuotation: function (oItem) {
+          var sPath = oItem.getSource().getBindingContextPath();
+          var solcotNo = this.getModel("jModel").getProperty(sPath).SolcotNo;
+          var cotNo = this.getModel("jModel").getProperty(sPath).CotNo;
+          var key = `SolcotNo='${solcotNo}',CotNo='${cotNo}'`;
+
+          // Navega para o detalhe
+          this.getRouter().navTo("Cotacao", {
+            key: key
+          });
         },
 
         /**
@@ -71,38 +99,38 @@ sap.ui.define(
          * @param {*} oEvent 
          */
         afterObjectMatched(oEvent) {
-          this.setModel(new JSONModel(), 'quotationItemDetail');
-          this.setModel(new JSONModel(), 'quotationItems');
-          this.getModel('quotationItemDetail').setData([
-            {
-              "title": "Item 1",
-              "subtitle": "Detalhes do Item 1",
-              "counter": 1,
-              // "highlight": "Error",
-              "unread": true,
-              // "type": "None",
-              'nome': 'teste'
-            }
-          ]);
-          var items = this.getModel('jModel').getData().ItemCotacao.results;
-          var blockItems = [];
-          blockItems = items.map((item) => {
-            return {
-              "title": item.MaterialDescription,
-              // "subtitle": "Detalhes do item 1",
-              "counter": parseInt(item.Material),
-              "highlight": "Error",
-              "type": "Active",
-              "itemDetails": item
-            };
-          });
+          // this.setModel(new JSONModel(), 'quotationItemDetail');
+          // this.setModel(new JSONModel(), 'quotationItems');
+          // this.getModel('quotationItemDetail').setData([
+          //   {
+          //     "title": "Item 1",
+          //     "subtitle": "Detalhes do Item 1",
+          //     "counter": 1,
+          //     // "highlight": "Error",
+          //     "unread": true,
+          //     // "type": "None",
+          //     'nome': 'teste'
+          //   }
+          // ]);
+          // var items = this.getModel('jModel').getData().ItemCotacao.results;
+          // var blockItems = [];
+          // blockItems = items.map((item) => {
+          //   return {
+          //     "title": item.MaterialDescription,
+          //     // "subtitle": "Detalhes do item 1",
+          //     "counter": parseInt(item.Material),
+          //     "highlight": "Error",
+          //     "type": "Active",
+          //     "itemDetails": item
+          //   };
+          // });
 
-          if (blockItems.length > 0) {
-            blockItems[0].selected = true;
-            this.getModel('quotationItems').setData(blockItems);
-            this.showItemDetails(blockItems[0]);
-          } else
-            this.getModel('quotationItems').setData([]);
+          // if (blockItems.length > 0) {
+          //   blockItems[0].selected = true;
+          //   this.getModel('quotationItems').setData(blockItems);
+          //   this.showItemDetails(blockItems[0]);
+          // } else
+          //   this.getModel('quotationItems').setData([]);
 
         }
       }

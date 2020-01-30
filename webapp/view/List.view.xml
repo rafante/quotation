@@ -42,12 +42,12 @@
 		</f:header>
 		<f:content>
 
-			<Table id="idPriceTable" alternateRowColors="true" inset="false" items="{path:'jModel>/CotacaoSet'}" width="auto">
+			<Table id="idPriceTable" alternateRowColors="true" inset="false" items="{path:'jModel>/SolicitacaoCotacaoSet'}" width="auto">
 
 				<columns>
-					<Column width="2rem">
+					<!-- <Column width="2rem">
 						<Text text=""/>
-					</Column>
+					</Column> -->
 					<Column>
 						<Text text="{i18n>SolcotNo}"/>
 					</Column>
@@ -63,13 +63,13 @@
 				</columns>
 
 				<items>
-					<ColumnListItem type="Navigation" press=".onListItemPressed" vAlign="Middle">
-						<cells>
+					<ColumnListItem type="Navigation" press=".onListItemPressed" highlight="{ path: 'jModel>Status', formatter: '.formatter.getStatusHighlight' }" vAlign="Middle">
+						<!-- <cells>
 							<ObjectStatus icon="{ path: 'jModel>Status', formatter: '.formatter.getStatusIcon' }" state="{
 								path: 'jModel>Status',
 								formatter: '.formatter.getStatusState'
 							}"/>
-						</cells>
+						</cells> -->
 						<cells>
 							<Title text="{jModel>SolcotNo}"/>
 						</cells>

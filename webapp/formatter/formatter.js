@@ -18,6 +18,22 @@ sap.ui.define([
             }
         },
 
+        getStatusHighlight: function (status) {
+            switch (status) {
+                case "A":
+                    return sap.ui.core.ValueState.Success;
+                case "E":
+                    return sap.ui.core.ValueState.Warning;
+                case "L":
+                    return sap.ui.core.ValueState.Information;
+                case "C":
+                    return sap.ui.core.ValueState.Information;
+                default:
+                    return sap.ui.core.ValueState.Error;
+
+            }
+        },
+
         getStatusState: function (status) {
             switch (status) {
                 case "A":

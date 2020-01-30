@@ -1,7 +1,7 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/criacotacao/model/CotacaoModel",
+  ["./BaseController", "br/com/patrimar/criacotacao/model/SolicitacaoCotacaoModel",
     'criacotacao/formatter/formatter'],
-  function (BaseController, CriaCotacaoModel, formatter) {
+  function (BaseController, SolicitacaoCotacaoModel, formatter) {
     "use strict";
 
     return BaseController.extend(
@@ -21,7 +21,7 @@ sap.ui.define(
           var oModel = this.getOwnerComponent().getModel();
 
           // Prepara o controller (Routing e Model)
-          this.prepare(CriaCotacaoModel.getInstance(oModel));
+          this.prepare(SolicitacaoCotacaoModel.getInstance(oModel));
 
           // Aguarda o metadata do OData ser carregado
           oModel.metadataLoaded().then(
@@ -38,8 +38,8 @@ sap.ui.define(
         onListItemPressed: function (oItem) {
           var sPath = oItem.getSource().getBindingContextPath();
           var solcotNo = this.getModel("jModel").getProperty(sPath).SolcotNo;
-          var cotNo = this.getModel("jModel").getProperty(sPath).CotNo;
-          var key = `SolcotNo='${solcotNo}',CotNo='${cotNo}'`;
+          // var cotNo = this.getModel("jModel").getProperty(sPath).CotNo;
+          var key = `SolcotNo='${solcotNo}'`;
 
           // Navega para o detalhe
           this.getRouter().navTo("Detail", {
@@ -51,7 +51,7 @@ sap.ui.define(
         * Recupera a lista do backend
         */
         readList: function () {
-          return this.readByPath("/" + this.ENTITY_SET_NAME + '?$expand=ItemCotacao');
+          return this.readByPath("/" + this.ENTITY_SET_NAME, '$expand=SolicitacaoCotacaoItems,Cotacao');
         },
 
         /**
@@ -64,11 +64,11 @@ sap.ui.define(
         loadCriaCotacaoList: function () {
           // Recupera o modelo (CriaCotacaoModel.js) e faz a leitura dos dados no backend
           this.getModelInstance()
-            .readList()
+            .readList('$expand=SolicitacaoCotacaoItems,Cotacao')
             .then(
               function (data) {
                 this.getModel("jModel").setProperty(
-                  "/CotacaoSet",
+                  "/SolicitacaoCotacaoSet",
                   data.results
                 );
               }.bind(this)

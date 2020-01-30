@@ -109,6 +109,13 @@
           "target": [
             "Detail"
           ]
+        },
+        {
+          "name": "Cotacao",
+          "pattern": "Cotacao/{key}",
+          "target": [
+            "Cotacao"
+          ]
         }
       ],
       "targets": {
@@ -125,6 +132,13 @@
           "viewId": "Detail",
           "viewName": "Detail",
           "viewLevel": 2
+        },
+        "Cotacao": {
+          "viewType": "XML",
+          "transition": "slide",
+          "viewId": "Cotacao",
+          "viewName": "Cotacao",
+          "viewLevel": 3
         }
       }
     }
