@@ -2,14 +2,14 @@ sap.ui.define(
     [
         "sap/ui/base/Object",
         "sap/ui/model/json/JSONModel",
-        "br/com/patrimar/criacotacao/model/BaseModel"
+        "br/com/patrimar/quotation/model/BaseModel"
     ],
     function (Object, JSONModel, BaseModel) {
         "use strict";
         var instance;
 
         var SolicitacaoCotacaoModel = BaseModel.extend(
-            "br.com.patrimar.criacotacao.model.SolicitacaoCotacaoModel",
+            "br.com.patrimar.quotation.model.SolicitacaoCotacaoModel",
             {
                 /**
                  * Construtor (Definindo um ODataModel)
@@ -24,7 +24,7 @@ sap.ui.define(
                  * Recupera a lista do backend
                  */
                 readByKey: function (key, urlParameters = null) {
-                    // Ex.: /CriaCotacaoSet('0000000001')
+                    // Ex.: /CotacaoSet('0000000001')
                     var sPath = this.getPathFromKey(this.ENTITY_SET_NAME, key);
                     return this.readByPath(sPath, '$expand=SolicitacaoCotacaoItems,Cotacao,Cotacao/ItemCotacao');
                 },

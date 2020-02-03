@@ -2,14 +2,14 @@ sap.ui.define(
   [
     "sap/ui/base/Object",
     "sap/ui/model/json/JSONModel",
-    "br/com/patrimar/criacotacao/model/BaseModel"
+    "br/com/patrimar/quotation/model/BaseModel"
   ],
   function (Object, JSONModel, BaseModel) {
     "use strict";
     var instance;
 
     var CotacaoModel = BaseModel.extend(
-      "br.com.patrimar.criacotacao.model.CotacaoModel",
+      "br.com.patrimar.quotation.model.CotacaoModel",
       {
         currentPath: '',
         /**
@@ -128,20 +128,13 @@ sap.ui.define(
             delete preparedData['ItemCotacao'];
             delete preparedData['Plants'];
             model.update(`/CotacaoSet(SolcotNo='${preparedData.SolcotNo}',CotNo='${preparedData.CotNo}')`, preparedData, parameters);
-            model.submitChanges(parameters);
-
-            // this.getODataModel().update(this.currentPath, preparedData, {
-            //   headers: { 'Content-Type': 'application/json' },
-            //   success: function (oData) {
-            //     // Lê novamente do backend
-            //     this.readByKey(oData.SolcotNo);
-
-            //     res(oData);
-            //   }.bind(this),
-            //   error: function (oError) {
-            //     rej(oError);
-            //   }
-            // });
+            model.submitChanges({
+              success: function (data) {
+                res(data);
+              }, error: function (err) {
+                rej(err);
+              }
+            });
           }.bind(this));
         }
       }

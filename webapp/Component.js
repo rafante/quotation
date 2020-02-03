@@ -2,12 +2,12 @@ sap.ui.define(
   [
     "sap/ui/core/UIComponent",
     "sap/ui/Device",
-    "br/com/patrimar/criacotacao/model/models"
+    "br/com/patrimar/quotation/model/models"
   ],
   function (UIComponent, Device, models) {
     "use strict";
 
-    return UIComponent.extend("br.com.patrimar.criacotacao.Component", {
+    return UIComponent.extend("br.com.patrimar.quotation.Component", {
       metadata: {
         manifest: "json",
         config: {

@@ -1,11 +1,11 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/criacotacao/model/SolicitacaoCotacaoModel",
-    'criacotacao/formatter/formatter'],
+  ["./BaseController", "br/com/patrimar/quotation/model/SolicitacaoCotacaoModel",
+    'quotation/formatter/formatter'],
   function (BaseController, SolicitacaoCotacaoModel, formatter) {
     "use strict";
 
     return BaseController.extend(
-      "br.com.patrimar.criacotacao.controller.List",
+      "br.com.patrimar.quotation.controller.List",
       {
         formatter: formatter,
 
@@ -26,7 +26,7 @@ sap.ui.define(
           // Aguarda o metadata do OData ser carregado
           oModel.metadataLoaded().then(
             function () {
-              this.loadCriaCotacaoList();
+              this.loadQuotationRequestList();
             }.bind(this)
           );
         },
@@ -61,8 +61,8 @@ sap.ui.define(
         /**
          * Carrega a lista de Criação de Cotação
          */
-        loadCriaCotacaoList: function () {
-          // Recupera o modelo (CriaCotacaoModel.js) e faz a leitura dos dados no backend
+        loadQuotationRequestList: function () {
+          // Recupera o modelo (QuotationModel.js) e faz a leitura dos dados no backend
           this.getModelInstance()
             .readList('$expand=SolicitacaoCotacaoItems,Cotacao')
             .then(

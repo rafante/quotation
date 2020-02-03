@@ -4,7 +4,7 @@ Este é um template para aplicações com (List/Detail) em SAPUI5. Novas aplica�
 
 Este template foi criado, inicialmente, para atender ao aplicativo de Criação de Cotações da Patrimar, por isto os nomes técnicos estarão referenciando tal.
 
-Pacote: **br.com.patrimar.criacotacao**
+Pacote: **br.com.patrimar.quotation**
 
 **Este template passará por melhorias contínuas.**
 
@@ -22,7 +22,7 @@ Para utilizar o template, basta seguir os seguintes passos:
 
 # Mockserver (Dados fictícios)
 
-Para facilitar os testes, é possível utilizar o mockserver standard do SAPUI5. Basta que na pasta [localService](webapp/localService) exista o arquivo [mockserver.js](webapp/localService/mockserver.js), o [metadata.xml](webapp/localService/zsd_odata_price_cockpit_srv/metadata.xml) e os arquivos JSON com os dados fictícios (ex.: [mockdata/CriaCotacaoSet.json](webapp/localService/mockdata/CriaCotacaoSet.json)).
+Para facilitar os testes, é possível utilizar o mockserver standard do SAPUI5. Basta que na pasta [localService](webapp/localService) exista o arquivo [mockserver.js](webapp/localService/mockserver.js), o [metadata.xml](webapp/localService/zsd_odata_price_cockpit_srv/metadata.xml) e os arquivos JSON com os dados fictícios (ex.: [mockdata/CotacaoSet.json](webapp/localService/mockdata/CotacaoSet.json)).
 
 Executar **npm run mock** (ou **yarn run mock**) para inicializar o mockserver.
 

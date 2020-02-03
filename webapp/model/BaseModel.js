@@ -1,7 +1,7 @@
 sap.ui.define(["sap/ui/base/Object"], function (Object) {
   "use strict";
 
-  return Object.extend("br.com.patrimar.criacotacao.model.BaseModel", {
+  return Object.extend("br.com.patrimar.quotation.model.BaseModel", {
     /**
      * Construtor
      */
@@ -40,14 +40,14 @@ sap.ui.define(["sap/ui/base/Object"], function (Object) {
      * Recupera a lista do backend
      */
     readByKey: function (key, urlParameters = null) {
-      // Ex.: /CriaCotacaoSet('0000000001')
+      // Ex.: /QuotationSet('0000000001')
       var sPath = this.getPathFromKey(this.ENTITY_SET_NAME, key);
       return this.readByPath(sPath, urlParameters);
     },
 
     /**
      * Recupera o caminho com base no entity set e na chave
-     * Ex.: /CriaCotacaoSet('0000000001')
+     * Ex.: /CotacaoSet('0000000001')
      * @param {*} entitySetName
      * @param {*} key
      */

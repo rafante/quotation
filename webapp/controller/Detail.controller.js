@@ -1,11 +1,11 @@
 sap.ui.define(
-  ["./BaseController", "br/com/patrimar/criacotacao/model/SolicitacaoCotacaoModel", 'sap/ui/model/json/JSONModel',
-    'criacotacao/formatter/formatter', 'sap/ui/model/Filter'],
+  ["./BaseController", "br/com/patrimar/quotation/model/SolicitacaoCotacaoModel", 'sap/ui/model/json/JSONModel',
+    'quotation/formatter/formatter', 'sap/ui/model/Filter'],
   function (BaseController, SolicitacaoCotacaoModel, JSONModel, formatter, Filter) {
     "use strict";
 
     return BaseController.extend(
-      "br.com.patrimar.criacotacao.controller.Detail",
+      "br.com.patrimar.quotation.controller.Detail",
       {
         formatter: formatter,
 
@@ -66,7 +66,7 @@ sap.ui.define(
           // create value help dialog
           if (!this._valueHelpDialog) {
             this._valueHelpDialog = sap.ui.xmlfragment(
-              "br.com.patrimar.criacotacao.fragment.SelectPayTerms",
+              "br.com.patrimar.quotation.fragment.SelectPayTerms",
               this
             );
             this.getView().addDependent(this._valueHelpDialog);

@@ -1,7 +1,7 @@
 {
   "_version": "1.12.0",
   "sap.app": {
-    "id": "br.com.patrimar.criacotacao",
+    "id": "br.com.patrimar.quotation",
     "type": "application",
     "i18n": "i18n/i18n.properties",
     "applicationVersion": {
@@ -46,7 +46,7 @@
   "sap.ui5": {
     "flexEnabled": false,
     "rootView": {
-      "viewName": "br.com.patrimar.criacotacao.view.App",
+      "viewName": "br.com.patrimar.quotation.view.App",
       "type": "XML",
       "async": true,
       "id": "App"
@@ -67,7 +67,7 @@
       "i18n": {
         "type": "sap.ui.model.resource.ResourceModel",
         "settings": {
-          "bundleName": "br.com.patrimar.criacotacao.i18n.i18n"
+          "bundleName": "br.com.patrimar.quotation.i18n.i18n"
         }
       },
       "": {
@@ -105,7 +105,7 @@
         "routerClass": "sap.m.routing.Router",
         "viewType": "XML",
         "async": true,
-        "viewPath": "br.com.patrimar.criacotacao.view",
+        "viewPath": "br.com.patrimar.quotation.view",
         "controlAggregation": "pages",
         "controlId": "app",
         "clearControlAggregation": false

@@ -1,4 +1,4 @@
-ID: criacotacao
+ID: quotation
 version: 1.0.0
 _schema-version: 2.0.0
 
@@ -6,11 +6,11 @@ parameters:
   hcp-deployer-version: 1.2.0
 
 modules:
-  - name: criacotacao
+  - name: quotation
     type: html5
     path: .
     parameters:
-      display-name: criacotacao
+      display-name: quotation
       version: ${timestamp}
     build-parameters:
       builder: grunt

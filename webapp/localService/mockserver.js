@@ -5,11 +5,11 @@ sap.ui.define(
     "sap/base/util/UriParameters",
     "sap/base/Log"
   ],
-  function(MockServer, JSONModel, UriParameters, Log) {
+  function (MockServer, JSONModel, UriParameters, Log) {
     "use strict";
 
     var oMockServer,
-      _sAppPath = "criacotacao/",
+      _sAppPath = "quotation/",
       _sJsonFilesPath = _sAppPath + "localService/mockdata";
 
     var oMockServerInterface = {
@@ -21,14 +21,14 @@ sap.ui.define(
        * @param {object} [oOptionsParameter] init parameters for the mockserver
        * @returns{Promise} a promise that is resolved when the mock server has been started
        */
-      init: function(oOptionsParameter) {
+      init: function (oOptionsParameter) {
         var oOptions = oOptionsParameter || {};
 
-        return new Promise(function(fnResolve, fnReject) {
+        return new Promise(function (fnResolve, fnReject) {
           var sManifestUrl = sap.ui.require.toUrl(_sAppPath + "manifest.json"),
             oManifestModel = new JSONModel(sManifestUrl);
 
-          oManifestModel.attachRequestCompleted(function() {
+          oManifestModel.attachRequestCompleted(function () {
             var oUriParameters = new UriParameters(window.location.href),
               // parse manifest for local metatadata URI
               sJsonFilesUrl = sap.ui.require.toUrl(_sJsonFilesPath),
@@ -74,8 +74,8 @@ sap.ui.define(
             var aRequests = oMockServer.getRequests();
 
             // compose an error response for each request
-            var fnResponse = function(iErrCode, sMessage, aRequest) {
-              aRequest.response = function(oXhr) {
+            var fnResponse = function (iErrCode, sMessage, aRequest) {
+              aRequest.response = function (oXhr) {
                 oXhr.respond(
                   iErrCode,
                   { "Content-Type": "text/plain;charset=utf-8" },
@@ -86,7 +86,7 @@ sap.ui.define(
 
             // simulate metadata errors
             if (oOptions.metadataError || oUriParameters.get("metadataError")) {
-              aRequests.forEach(function(aEntry) {
+              aRequests.forEach(function (aEntry) {
                 if (aEntry.path.toString().indexOf("$metadata") > -1) {
                   fnResponse(500, "metadata Error", aEntry);
                 }
@@ -95,10 +95,10 @@ sap.ui.define(
 
             // simulate request errors
             var sErrorParam =
-                oOptions.errorType || oUriParameters.get("errorType"),
+              oOptions.errorType || oUriParameters.get("errorType"),
               iErrorCode = sErrorParam === "badRequest" ? 400 : 500;
             if (sErrorParam) {
-              aRequests.forEach(function(aEntry) {
+              aRequests.forEach(function (aEntry) {
                 fnResponse(iErrorCode, sErrorParam, aEntry);
               });
             }
@@ -113,7 +113,7 @@ sap.ui.define(
             fnResolve();
           });
 
-          oManifestModel.attachRequestFailed(function() {
+          oManifestModel.attachRequestFailed(function () {
             var sError = "Failed to load application manifest";
 
             Log.error(sError);
@@ -126,7 +126,7 @@ sap.ui.define(
        * @public returns the mockserver of the app, should be used in integration tests
        * @returns {sap.ui.core.util.MockServer} the mockserver instance
        */
-      getMockServer: function() {
+      getMockServer: function () {
         return oMockServer;
       }
     };

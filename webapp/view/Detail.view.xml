@@ -1,4 +1,4 @@
-<mvc:View controllerName="br.com.patrimar.criacotacao.controller.Detail" 
+<mvc:View controllerName="br.com.patrimar.quotation.controller.Detail" 
 	xmlns:core="sap.ui.core" 
 	xmlns="sap.m" 
 	xmlns:layout="sap.ui.layout" 

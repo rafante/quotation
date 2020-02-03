@@ -1,4 +1,4 @@
-<mvc:View controllerName="br.com.patrimar.criacotacao.controller.Cotacao" 
+<mvc:View controllerName="br.com.patrimar.quotation.controller.Cotacao" 
     xmlns="sap.m" 
     xmlns:grid="sap.ui.layout.cssgrid" 
     xmlns:f="sap.f" 
@@ -13,6 +13,7 @@
                 <!-- Área do cabeçalho -->
                 <ObjectHeader responsive="true" condensed="true" title="{jModel>/SolcotNo}">
                     <statuses>
+
                         <!-- icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
 									path: 'jModel>/Status',
 									formatter: '.formatter.getStatusState'
@@ -22,7 +23,10 @@
 									formatter: '.formatter.getStatusState'
 								}"/>
                     </statuses>
-                    <ObjectAttribute title="{i18n>ValidTo}" text="{ path: 'jModel>/ValidTo', formatter: '.formatter.getFormattedDate' }"/>
+                    <attributes>
+                        <ObjectAttribute title="{i18n>CotNo}" text="{jModel>/CotNo}"/>
+                        <ObjectAttribute title="{i18n>ValidTo}" text="{ path: 'jModel>/ValidTo', formatter: '.formatter.getFormattedDate' }"/>
+                    </attributes>
                     <!-- <Input title="{i18n>PaymentTerms}" text="{jModel>/PaymentTerms}"/> -->
                 </ObjectHeader>
                 <content>
@@ -30,8 +34,8 @@
                         <items>
                             <IconTabFilter text="Itens da Cotação">
                                 <grid:CSSGrid id="grid1" gridTemplateColumns="1fr 3fr" gridGap="1rem">
-                                    <core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.QuotationItems" type="XML" />
-                                    <core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.ItemDetails" type="XML" />
+                                    <core:Fragment fragmentName="br.com.patrimar.quotation.fragment.QuotationItems" type="XML" />
+                                    <core:Fragment fragmentName="br.com.patrimar.quotation.fragment.ItemDetails" type="XML" />
                                 </grid:CSSGrid>
                             </IconTabFilter>
                             <IconTabFilter text="Centros">

@@ -1,6 +1,6 @@
 specVersion: '1.0'
 metadata:
-  name: criacotacao
+  name: quotation
 type: application
 resources:
   configuration:

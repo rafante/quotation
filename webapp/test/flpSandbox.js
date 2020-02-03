@@ -41,7 +41,7 @@ sap.ui.define(
                       tileType: "sap.ushell.ui.tile.StaticTile",
                       properties: {
                         title: "Criar de Cotação",
-                        targetURL: "#criacotacao-display"
+                        targetURL: "#quotation-display"
                       }
                     }
                   ]
@@ -54,8 +54,8 @@ sap.ui.define(
           adapter: {
             config: {
               inbounds: {
-                "criacotacao-display": {
-                  semanticObject: "criacotacao",
+                "quotation-display": {
+                  semanticObject: "quotation",
                   action: "display",
 
                   title: "Criação de Cotação",
@@ -65,8 +65,8 @@ sap.ui.define(
                   resolutionResult: {
                     applicationType: "SAPUI5",
                     additionalInformation:
-                      "SAPUI5.Component=br.com.patrimar.criacotacao",
-                    url: sap.ui.require.toUrl("criacotacao")
+                      "SAPUI5.Component=br.com.patrimar.quotation",
+                    url: sap.ui.require.toUrl("quotation")
                   }
                 }
               }

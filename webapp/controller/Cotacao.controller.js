@@ -1,11 +1,11 @@
 sap.ui.define(
-    ["./BaseController", "br/com/patrimar/criacotacao/model/CotacaoModel", 'sap/ui/model/json/JSONModel',
-        'criacotacao/formatter/formatter', 'sap/ui/model/Filter'],
-    function (BaseController, CotacaoModel, JSONModel, formatter, Filter) {
+    ["./BaseController", "br/com/patrimar/quotation/model/CotacaoModel", 'sap/ui/model/json/JSONModel',
+        'quotation/formatter/formatter', 'sap/ui/model/Filter', 'sap/m/MessageToast'],
+    function (BaseController, CotacaoModel, JSONModel, formatter, Filter, MessageToast) {
         "use strict";
 
         return BaseController.extend(
-            "br.com.patrimar.criacotacao.controller.Cotacao",
+            "br.com.patrimar.quotation.controller.Cotacao",
             {
                 formatter: formatter,
 
@@ -57,7 +57,9 @@ sap.ui.define(
 
                 saveQuotation: function () {
                     var cotModel = this.getModel('jModel');
-                    this.getModelInstance().save(cotModel.getData());
+                    this.getModelInstance().save(cotModel.getData()).then(function () {
+                        MessageToast.show('Cotação salva com sucesso')
+                    });
                 },
 
                 selectPayTerms: function () {
@@ -146,7 +148,7 @@ sap.ui.define(
                     // create value help dialog
                     if (!this._valueHelpDialog) {
                         this._valueHelpDialog = sap.ui.xmlfragment(
-                            "br.com.patrimar.criacotacao.fragment.SelectPayTerms",
+                            "br.com.patrimar.quotation.fragment.SelectPayTerms",
                             this
                         );
                         this.getView().addDependent(this._valueHelpDialog);
