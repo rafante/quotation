@@ -29,6 +29,21 @@ sap.ui.define(
 
         // set the device model
         this.setModel(models.createDeviceModel(), "device");
+
+        // var that = this;
+        // // Prepara o model com os dados do usuário
+        // var userAttributes = new sap.ui.model.json.JSONModel();
+        // userAttributes.attachRequestCompleted(function (data) {
+        //   that.setModel(userAttributes, "userAttributes");
+        // });
+        // userAttributes.loadData("/services/userapi/attributes");
+
+
+        // var currentUser = new sap.ui.model.json.JSONModel();
+        // currentUser.attachRequestCompleted(function (data) {
+        //   that.setModel(currentUser, "currentUser");
+        // });
+        // currentUser.loadData("/services/userapi/currentUser");
       }
     });
   }

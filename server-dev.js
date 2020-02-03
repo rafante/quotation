@@ -18,6 +18,24 @@ module.exports = function (grunt) {
         }
     });
 
+    var userApiProxy = proxy('/services/userapi', {
+        logLevel: 'debug',
+        target: 'https://avzotlg5p.accounts.ondemand.com',
+        changeOrigin: true,
+        auth: 'MLOLIVEIRA:123456',
+        onProxyReq: function (proxyReq, req, res) {
+            proxyReq.setHeader('sap-client', '300');
+            res.write(JSON.stringify({
+                loginname: "11414766000139",
+                email: "sdiego@seidor.com.br",
+                name: "P000002",
+                lastname: "Silva",
+                firstname: "Diêgo",
+                supplier: "100089"
+            }));
+        }
+    });
+
     var resourcesProxy = proxy('/resources', {
         target: 'https://sapui5.hana.ondemand.com',
         changeOrigin: true
@@ -37,7 +55,7 @@ module.exports = function (grunt) {
                 options: {
                     server: {
                         baseDir: ['webapp'],
-                        middleware: [s4HanaProxy, resourcesProxy, testResourcesProxy]
+                        middleware: [s4HanaProxy, resourcesProxy, testResourcesProxy, userApiProxy]
                     },
                     startPath: "/test/flpSandbox.html"
                 }

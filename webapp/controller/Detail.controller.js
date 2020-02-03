@@ -94,45 +94,137 @@ sap.ui.define(
           });
         },
 
-        /**
-         * 
-         * @param {*} oEvent 
-         */
-        afterObjectMatched(oEvent) {
-          // this.setModel(new JSONModel(), 'quotationItemDetail');
-          // this.setModel(new JSONModel(), 'quotationItems');
-          // this.getModel('quotationItemDetail').setData([
-          //   {
-          //     "title": "Item 1",
-          //     "subtitle": "Detalhes do Item 1",
-          //     "counter": 1,
-          //     // "highlight": "Error",
-          //     "unread": true,
-          //     // "type": "None",
-          //     'nome': 'teste'
-          //   }
-          // ]);
-          // var items = this.getModel('jModel').getData().ItemCotacao.results;
-          // var blockItems = [];
-          // blockItems = items.map((item) => {
-          //   return {
-          //     "title": item.MaterialDescription,
-          //     // "subtitle": "Detalhes do item 1",
-          //     "counter": parseInt(item.Material),
-          //     "highlight": "Error",
-          //     "type": "Active",
-          //     "itemDetails": item
-          //   };
-          // });
+        onCreateQuotation: function (e) {
+          var solcotNo = this.getModel("jModel").getProperty('/SolcotNo');
+          this.selectSupplier(solcotNo);
+        },
 
-          // if (blockItems.length > 0) {
-          //   blockItems[0].selected = true;
-          //   this.getModel('quotationItems').setData(blockItems);
-          //   this.showItemDetails(blockItems[0]);
-          // } else
-          //   this.getModel('quotationItems').setData([]);
+        selectSupplier: function (solCotNo) {
+          var supplierDialogModel = new sap.ui.model.json.JSONModel({
+            supplier: ""
+          });
+          this.getView().setModel(supplierDialogModel, "dlg");
+          var that = this;
+          // var model = new sap.ui.model.odata.ODataModel("/PATRIMAR_S4HANA/sap/opu/odata/sap/ZPORTAL_COTACAO_SRV/FornecedoresSolicitacaoSet/");
+          this.supplierDialog = new sap.m.TableSelectDialog({
+            title: 'Informe o código/nome do fornecedor do SAP',
+            // model: 'dlg',
+            confirm: function (a, b, c) {
+              var item = a.getParameter('selectedItem');
+              var cell = item.getCells()[0];
+              var supplierInputValue = cell.getText();
+              var model = that.getView().getModel('dlg');
+              model.setData({ 'supplier': supplierInputValue });
+              that.createQuotation(supplierInputValue, solCotNo);
+            },
+            search: function (a) {
+              var query = a.getParameter('value');
 
-        }
+              var itemsBinding = a.getParameter('itemsBinding');
+              var filters = [];
+              var supplierFilter = new sap.ui.model.Filter('Fornecedor', sap.ui.model.FilterOperator.Contains, query)
+              var supplierNameFilter = new sap.ui.model.Filter('Name', sap.ui.model.FilterOperator.Contains, query)
+              //filters.push(new sap.ui.model.Filter('SolcotNo', 'EQ', solCotNo))
+              if (!isNaN(query))
+                filters.push(supplierFilter);
+              if (isNaN(query))
+                filters.push(supplierNameFilter);
+              itemsBinding.filter(filters)
+            },
+            columns: [
+              new sap.m.Column({
+                header: new sap.m.Label({
+                  text: "Código"
+                })
+              }),
+              new sap.m.Column({
+                header: new sap.m.Label({
+                  text: "Nome"
+                })
+              }),
+            ],
+            items: {
+              path: "/FornecedoresSolicitacaoSet",
+              //                  sorter: {
+              //     path: 'Name',
+              //     descending: false
+              // },
+              filters: [
+                new sap.ui.model.Filter('SolcotNo', 'EQ', solCotNo)
+              ],
+              template: new sap.m.ColumnListItem({
+                cells: [
+                  new sap.m.Text({
+                    text: "{Fornecedor}"
+                  }),
+                  new sap.m.Text({
+                    text: "{Name}"
+                  }),
+                ]
+              })
+            }
+          });
+          //to get access to the global model
+          this.getView().addDependent(this.supplierDialog);
+          //}
+
+          this.supplierDialog.open();
+        },
+
+        createQuotation: function (supplier, solcotNo) {
+          var that = this;
+          var oModel = this.getView().getModel();
+
+          // Verificamos se o fornecedor está habilitado para fazer cotações a esta solicitação
+          this.getView().getModel('solicitacao').read("/SolicitacaoCotacaoSet('" + solcotNo + "')/Fornecedores", {
+            urlParameters: {
+              "$select": "Fornecedor"
+            },
+            success: function (data) {
+              if (!data || data.results.length == 0 || !data.results.find(function (x) {
+                return parseFloat(x.Fornecedor) ==
+                  parseFloat(supplier)
+              }))
+                sap.m.MessageBox.warning("Fornecedor " + supplier + " não foi selecionado para esta solicitação.");
+              else {
+                // Recupera o caminho do binding context e o model
+                var sPath = `/SolicitacaoCotacaoSet(SolcotNo='${solcotNo}')/Cotacao`;
+
+                // Preenche os dados para o POST
+                var payload = {
+                  SolcotNo: solcotNo,
+                  Supplier: supplier
+                };
+
+                // Executa o POST
+                oModel.create(sPath, payload, {
+                  refreshAfterChange: true,
+                  // urlParameters: 'sap-client=300',
+                  headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json',
+                  },
+                  success: function (e, c, d) {
+                    sap.m.MessageBox.success("Cotação " + e.CotNo + " criada com sucesso!", {
+                      onClose: function () {
+                        var m = that.getModel('jModel');
+                        var items = m.getData().Cotacao;
+                        items.results.push(e);
+                        m.setProperty('/Cotacao/results', items.results);
+                      }
+                    });
+                  },
+                  error: function (e) {
+                    sap.m.MessageBox.error(JSON.parse(e.responseText).error.message.value);
+                  }
+                });
+              }
+            },
+            error: function (error) {
+              sap.m.MessageBox.error("Falha ao tentar validar o Fornecedor.");
+            }
+          });
+        },
       }
     );
   }

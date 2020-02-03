@@ -19,7 +19,8 @@
 						</VBox>
 						<VBox width="400px">
 							<Label text="{i18n>Status}:" design="Bold" class="sapUiSmallMarginTop"/>
-							<ObjectAttribute text="{jModel>/Status}"/>
+							<!-- <ObjectAttribute text="{jModel>/Status}"/> -->
+							<ObjectAttribute text="{jModel>/StatusDescription}"/>
 						</VBox>
 						<VBox width="400px">
 							<Label text="{i18n>DescricaoStatus}:" design="Bold" class="sapUiSmallMarginTop"/>
@@ -118,7 +119,7 @@
 		<footer>
 			<OverflowToolbar class="sapUiSizeCompact sapUxAPObjectPageFooter sapUxAPObjectPageFloatingFooter">
 				<ToolbarSpacer/>
-				<Button text="{i18n>CriarCotacao}" type="Accept" />
+				<Button text="{i18n>CriarCotacao}" type="Accept" press="onCreateQuotation"/>
 			</OverflowToolbar>
 		</footer>
 	</Page>

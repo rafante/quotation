@@ -149,7 +149,7 @@ sap.ui.define(
          * @param {*} oEvent 
          */
         afterObjectMatched: function (oEvent) {
-          console.log('passou no base');
+
         }
       }
     );

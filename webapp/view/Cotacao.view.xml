@@ -11,72 +11,94 @@
         <pages>
             <Page showHeader="false">
                 <!-- Área do cabeçalho -->
-                <ObjectHeader responsive="true" title="{jModel>/SolcotNo}">
-                    <!-- <statuses>
-						<ObjectStatus icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
-										path: 'jModel>/Status',
-										formatter: '.formatter.getStatusState'
-									}" text="{jModel>/StatusDescription}"/>
-					</statuses> -->
-                    <!-- <attributes>
-						<ObjectAttribute title="{i18n>PurchaseOrg}" text="{jModel>/PurchaseOrg}"/>
-						<ObjectAttribute title="{i18n>ValidTo}" text="{
-									path: 'jModel>/ValidTo',
-									formatter: '.formatter.getFormattedDate'
-								}"/>
-						<ObjectAttribute title="{i18n>DocumentType}" text="{jModel>/DocumentType}"/>
-					</attributes> -->
-                    <!-- <headerContainer>
-						<HeaderContainer scrollStep="200" id="headerContainer">
-							<ObjectStatus icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
-										path: 'jModel>/Status',
-										formatter: '.formatter.getStatusState'
-									}" text="{jModel>/StatusDescription}"/>
-							<ObjectAttribute title="{i18n>PurchaseOrg}" text="{jModel>/PurchaseOrg}"/>
-							<ObjectAttribute title="{i18n>ValidTo}" text="{
-									path: 'jModel>/ValidTo',
-									formatter: '.formatter.getFormattedDate'
-								}"/>
-							<ObjectAttribute title="{i18n>DocumentType}" text="{jModel>/DocumentType}"/>
-							<HBox width="100%">
-								<Input id="productInput" type="Text" placeholder="Condição de Pagamento..." showSuggestion="true" showValueHelp="true" valueHelpRequest="handleValueHelp" suggestionItems="{jModel>/PaymentTerms}">
-									<suggestionItems>
-										<core:Item text="{Title}" />
-									</suggestionItems>
-								</Input>
-							</HBox>
-						</HeaderContainer>
-					</headerContainer> -->
+                <ObjectHeader responsive="true" condensed="true" title="{jModel>/SolcotNo}">
                     <statuses>
-                        <ObjectStatus icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
+                        <!-- icon="{ path: 'jModel>/Status', formatter: '.formatter.getStatusIcon' }" state="{
 									path: 'jModel>/Status',
 									formatter: '.formatter.getStatusState'
-								}" text="{jModel>/StatusDescription}"/>
+								}"  -->
+                        <ObjectStatus title="Status" text="{jModel>/DescricaoStatus}" state="{
+									path: 'jModel>/Status',
+									formatter: '.formatter.getStatusState'
+								}"/>
                     </statuses>
-                    <ObjectAttribute title="{i18n>PurchaseOrg}" text="{jModel>/PurchaseOrg}"/>
-                    <ObjectAttribute title="{i18n>CreatedAt}" text="{
-								path: 'jModel>/CreatedAt',
-								formatter: '.formatter.getFormattedDate'
-							}" />
-                    <ObjectAttribute title="{i18n>ValidTo}" text="{
-								path: 'jModel>/ValidTo',
-								formatter: '.formatter.getFormattedDate'
-							}"/>
-                    <ObjectAttribute title="{i18n>DocumentType}" text="{jModel>/DocumentType}"/>
+                    <ObjectAttribute title="{i18n>ValidTo}" text="{ path: 'jModel>/ValidTo', formatter: '.formatter.getFormattedDate' }"/>
+                    <!-- <Input title="{i18n>PaymentTerms}" text="{jModel>/PaymentTerms}"/> -->
                 </ObjectHeader>
                 <content>
-                    <grid:CSSGrid id="grid1" gridTemplateColumns="1fr 3fr" gridGap="1rem">
-                        <core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.QuotationItems" type="XML" />
-                        <core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.ItemDetails" type="XML" />
-                    </grid:CSSGrid>
+                    <IconTabBar id="quotationSections" expandable="false" applyContentPadding="true" backgroundDesign="Transparent" expanded="true">
+                        <items>
+                            <IconTabFilter text="Itens da Cotação">
+                                <grid:CSSGrid id="grid1" gridTemplateColumns="1fr 3fr" gridGap="1rem">
+                                    <core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.QuotationItems" type="XML" />
+                                    <core:Fragment fragmentName="br.com.patrimar.criacotacao.fragment.ItemDetails" type="XML" />
+                                </grid:CSSGrid>
+                            </IconTabFilter>
+                            <IconTabFilter text="Centros">
+                                <Panel width="auto" class="sapUiResponsiveMargin">
+                                    <headerToolbar>
+                                        <OverflowToolbar height="3rem">
+                                            <Title text="Centros"/>
+                                        </OverflowToolbar>
+                                    </headerToolbar>
+                                    <content>
+                                        <Table id="itensSolicitados" inset="false" items="{
+                                                            path: 'jModel>/Plants/results',
+                                                            sorter: {
+                                                                path: 'PlantID'
+                                                            }
+                                                        }">
+                                            <columns>
+                                                <Column width="12em">
+                                                    <Text text="{i18n>PlantID}" />
+                                                </Column>
+                                                <Column minScreenWidth="Tablet" demandPopin="true">
+                                                    <Text text="{i18n>Name1}" />
+                                                </Column>
+                                                <Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+                                                    <Text text="{i18n>Address}" />
+                                                </Column>
+                                                <Column minScreenWidth="Desktop" demandPopin="true" hAlign="End">
+                                                    <Text text="{i18n>Region}" />
+                                                </Column>
+                                                <Column hAlign="End">
+                                                    <Text text="{i18n>City1}" />
+                                                </Column>
+                                                <Column hAlign="End">
+                                                    <Text text="{i18n>City2}" />
+                                                </Column>
+                                                <Column hAlign="End">
+                                                    <Text text="{i18n>Country}" />
+                                                </Column>
+                                                <Column hAlign="End">
+                                                    <Text text="{i18n>PostalCode}" />
+                                                </Column>
+                                            </columns>
+                                            <items>
+                                                <ColumnListItem>
+                                                    <cells>
+                                                        <Text text="{jModel>PlantID}"/>
+                                                        <Text text="{jModel>Name1}" />
+                                                        <Text text="{jModel>Address}" />
+                                                        <Text text="{jModel>Region}" />
+                                                        <Text text="{jModel>City1}" />
+                                                        <Text text="{jModel>City2}" />
+                                                        <Text text="{jModel>Country}" />
+                                                        <Text text="{jModel>PostalCode}" />
+                                                    </cells>
+                                                </ColumnListItem>
+                                            </items>
+                                        </Table>
+                                    </content>
+                                </Panel>
+                            </IconTabFilter>
+                        </items>
+                    </IconTabBar>
                 </content>
                 <footer>
                     <OverflowToolbar>
                         <ToolbarSpacer/>
-                        <Button text="Accept" type="Accept" />
-                        <Button text="Reject" type="Reject" />
-                        <Button text="Edit" />
-                        <Button text="Delete" />
+                        <Button text="Gravar" type="Emphasized" press="saveQuotation" />
                     </OverflowToolbar>
                 </footer>
             </Page>
