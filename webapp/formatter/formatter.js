@@ -1,6 +1,4 @@
-sap.ui.define([
-    'sap/ui/core/ValueState'
-], function (ValueState) {
+sap.ui.define([], function () {
     "use strict";
     return {
         getStatusIcon: function (status) {
@@ -15,6 +13,19 @@ sap.ui.define([
                     return "sap-icon://status-inactive";
                 default:
                     return "sap-icon://status-inactive";
+            }
+        },
+
+        getStatusDescription: function (status) {
+            switch (status) {
+                case 'P':
+                    return 'Pendente';
+                case 'L':
+                    return 'Liberado';
+                case 'C':
+                    return 'Cancelado';
+                default:
+                    return status;
             }
         },
 
@@ -37,15 +48,15 @@ sap.ui.define([
         getStatusState: function (status) {
             switch (status) {
                 case "A":
-                    return ValueState.Success;
+                    return sap.ui.core.ValueState.Success;
                 case "E":
-                    return ValueState.Warning;
+                    return sap.ui.core.ValueState.Warning;
                 case "L":
-                    return ValueState.Information;
+                    return sap.ui.core.ValueState.Information;
                 case "C":
-                    return ValueState.Information;
+                    return sap.ui.core.ValueState.Information;
                 default:
-                    return ValueState.Error;
+                    return sap.ui.core.ValueState.Error;
 
             }
         },

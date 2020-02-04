@@ -18,10 +18,14 @@
 									path: 'jModel>/Status',
 									formatter: '.formatter.getStatusState'
 								}"  -->
-                        <ObjectStatus title="Status" text="{jModel>/DescricaoStatus}" state="{
+                        <ObjectStatus title="Status" text="{
+									path: 'jModel>/Status',
+									formatter: '.formatter.getStatusDescription'
+								}" state="{
 									path: 'jModel>/Status',
 									formatter: '.formatter.getStatusState'
-								}"/>
+								}" />
+                        <ObjectStatus title="{i18n>PaymentTerms}" text="{jModel>/PaymTerms}" />
                     </statuses>
                     <attributes>
                         <ObjectAttribute title="{i18n>CotNo}" text="{jModel>/CotNo}"/>

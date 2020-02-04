@@ -31,6 +31,10 @@ sap.ui.define(
           );
         },
 
+        onPressFilter: function (filter) {
+          console.table(filter);
+        },
+
         /**
          * Evento acionado ao clicar em um item da lista
          * @param {*} oItem
